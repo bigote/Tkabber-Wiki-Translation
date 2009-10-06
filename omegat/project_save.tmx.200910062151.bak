@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.0.2_1"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="RU"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="RU">
+        <seg>Добро пожаловать на официальную страницу документации одного из самых продвинутых клиентов протокола [http://jabber.org Jabber (XMPP)] &amp;mdash; [http://tkabber.jabber.ru Tkabber].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Welcome to the official documentation page of one of the advanced [http://jabber.org Jabber (XMPP)] client, [http://tkabber.jabber.ru Tkabber].</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
