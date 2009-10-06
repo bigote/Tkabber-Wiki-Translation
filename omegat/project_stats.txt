@@ -1,27 +1,28 @@
 Estadísticas del proyecto
 
 Total:
-	Segmentos	83
-	Palabras	776
-	Caracteres (sin espacios)	5304
-	Caracteres (con espacios)	6012
+	Segmentos	313
+	Palabras	2523
+	Caracteres (sin espacios)	16404
+	Caracteres (con espacios)	18522
 Únicos pendientes:
-	Segmentos	16
-	Palabras	107
-	Caracteres (sin espacios)	709
-	Caracteres (con espacios)	825
+	Segmentos	172
+	Palabras	1144
+	Caracteres (sin espacios)	7503
+	Caracteres (con espacios)	8447
 Únicos:
-	Segmentos	79
-	Palabras	737
-	Caracteres (sin espacios)	5047
-	Caracteres (con espacios)	5710
+	Segmentos	288
+	Palabras	2484
+	Caracteres (sin espacios)	16098
+	Caracteres (con espacios)	18171
 Únicos pendientes:
-	Segmentos	12
-	Palabras	68
-	Caracteres (sin espacios)	452
-	Caracteres (con espacios)	523
+	Segmentos	147
+	Palabras	1105
+	Caracteres (sin espacios)	7197
+	Caracteres (con espacios)	8096
 
 Estadísticas por archivo:
 
 Nombre de archivo	Palabras en total	Palabras pendientes	Caracteres en total (sin espacios)	Caracteres pendientes (sin espacios)	Caracteres en total (con espacios)	Caracteres pendientes (con espacios)
+Tkabber_FAQ.utf8	1747	1037	11100	6794	12510	7622
 ru.tkabber.jabe.ru.UTF8	776	107	5304	709	6012	825
