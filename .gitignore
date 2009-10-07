@@ -4,4 +4,5 @@
 *.tar
 *.bz
 *.bak
+*.swp
 *.TM-commit-log
