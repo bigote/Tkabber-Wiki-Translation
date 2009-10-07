@@ -2901,5 +2901,37 @@
         <seg>[http://www.xmpp.org/extensions/attic/xep-0048-1.0.html XEP-0048 (historical)] and [http://www.xmpp.org/extensions/xep-0049.html XEP-0049]).</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Соответственно, если по какой-то причине у вас есть и закладка, и контакт в списке контактов, ссылающиеся на один и тот же JID (например, &lt;tt&gt;room@conference.server.org&lt;/tt&gt;), Ткаббер в некоторых случаях будет глючить описанным способом: присоединение к конференции через закладку работает, а попытка её отредактировать вызывает редактор для элемента списка контактов.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>So, if by some reason you have both a bookmark and a contact in the roster that refer to the same JID (for instance, &lt;tt&gt;oom@conference.server.org&lt;/tt&gt;), in some cases you'll get such strange behavious of Tkabber: it's possible to join a conference via its bookmark but when you try to edit it you get a roster elements editor, not bookmark editor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Подобная &quot;маскировка&quot; закладки и контакта друг другом может появиться по разным причинам, например, если вы добавили конференцию с помощью кнопки &quot;Добавить пользователя в ростер&quot;, то есть как обычный контакт (ну или ещё каким извратным способом), или если комната находится у вас в ростере со времён очень древних версий Ткаббера, когда ещё не было реализовано редактирование конференций).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>There are several reasons that could lead to such &quot;camouflage&quot; of a bookmark by a contact and vice versa. For instance, one could add a conference to the roster with a button &quot;Add user to roster&quot;, i.e. like a normal contact (or by some other crooked way), or if you have this room in your roster since very old versions of Tkabber, when there was no conference bookmark editing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Также есть мнение, что подобное может происходить не по вине пользователя и не по вине Ткаббера, а по вине некоторых других клиентов, которые при создании закладки на конференцию на самом деле создают элемент списка контактов, или делают то же самое при каких-то других условиях.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>There is an opinion that some other clients could be responsible of this creating a roster element instead of a bookmark when you add a conference to your roster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если вы &quot;поймаете&quot; какой-либо клиент на этом, сообщите нам в &lt;tt&gt;xmpp:tkabber@conference.jabber.ru&lt;/tt&gt;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you &quot;catch&quot; some client doing this please let us know explaining it in &lt;tt&gt;xmpp:tkabber@conference.jabber.ru&lt;/tt&gt;.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
