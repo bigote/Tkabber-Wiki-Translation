@@ -1,0 +1,5 @@
+Tkabber
+Passphrase
+Gentoo
+Gajim
+plugin
