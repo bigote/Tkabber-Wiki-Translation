@@ -2845,5 +2845,45 @@
         <seg>Of course, now we get annoying whiteboard but we already know what to do ;) It's your task now to determine how many squares and circles are required to erase spam and how many greetings are required to erase polygons.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Указываю путь до каталога с сертификатами, среди которых есть сертификат для коннекта с серверу, но Ткаббер не видит нужный сертификат (например, ругаясь на то, что сертификат сервера самоподписан или имеет в цепочке доверенных сертификатов самоподписанный сертификат).'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I provide a path to a certificate directory where there are a certificate for connection to a server, but Tkabber can't see a necessary certificate (for instance, it says that the server certificate is self-signed or it has a self-signed certificate in its chain of trusted certificates).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Подробный рассказ про сертификаты ЦС и Ткаббер находится [[Проверка сертификата сервера#Практика|здесь]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: A very detailed article about CA, certificates and Tkabber can be found [[Server Certificate Verification#Practice|here]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Пытаюсь отредактировать закладку конференции в списке контактов &amp;mdash; например, включить автовход для этой конференции, &amp;mdash; однако, в появившемся диалоге могу изменить только &quot;ник&quot; конференции.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I'm trying to edit a conference bookmark in my roster so that, for instance, to enable autojoin to it; however, I'm only able to change the &quot;nick&quot; of this conference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Проблема в том, что помимо &lt;em&gt;закладки,&lt;/em&gt; ссылающейся на JID комнаты, у вас в списке контактов есть &lt;em&gt;контакт&lt;/em&gt; с таким же JID.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: The problem is that besides of &lt;em&gt;a bookmark&lt;/em&gt; in you r roster that refers to a room's JID you have &lt;em&gt;a contact&lt;/em&gt; with the same JID.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Подробное описание проблемы дано чуть ниже, а метод борьбы с этим недугом один: удалите закладку (через её контекстного меню) &amp;mdash; при этом удалится как закладка, так и &quot;замаскированный&quot; ею элемент списка контактов, после чего добавьте нужную конференцию в закладки ещё раз &amp;mdash; из меню чата в конференции или из главного меню (&quot;Службы&quot; &amp;rarr; &quot;Добавить конференцию в контакты...&quot;).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The problem is explained below and here is given the only way to arrange it: delete the bookmark (via its context menu) &amp;mdash; it will delete both the bookmark and a corresponding roster element, after that just add a needed conference once more &amp;mdash; via chat menu or main menu: '''Services &amp;rarr; Add conference to the roster...'''.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

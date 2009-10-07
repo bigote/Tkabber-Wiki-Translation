@@ -2877,5 +2877,13 @@
         <seg>Answer: The problem is that besides of &lt;em&gt;a bookmark&lt;/em&gt; in you r roster that refers to a room's JID you have &lt;em&gt;a contact&lt;/em&gt; with the same JID.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Подробное описание проблемы дано чуть ниже, а метод борьбы с этим недугом один: удалите закладку (через её контекстного меню) &amp;mdash; при этом удалится как закладка, так и &quot;замаскированный&quot; ею элемент списка контактов, после чего добавьте нужную конференцию в закладки ещё раз &amp;mdash; из меню чата в конференции или из главного меню (&quot;Службы&quot; &amp;rarr; &quot;Добавить конференцию в контакты...&quot;).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The problem is explained below and here is given the only way to arrange it: delete the bookmark (via its context menu) &amp;mdash; it will delete both the bookmark and a corresponding roster element, after that just add a needed conference once more &amp;mdash; via chat menu or main menu: '''Services &amp;rarr; Add conference to the roster...'''.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

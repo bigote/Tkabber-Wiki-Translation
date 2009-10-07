@@ -1,132 +1,131 @@
-[[ru:Ткаббер ЧаВо/Глюки]]
+[[en:Tkabber FAQ/Glitches]]
 [[es:Preguntas frecuentes sobre Tkabber/Problemas]]
 [[uk:Ткаббер ЧЗП/Глюки]]
 
-[[Tkabber FAQ]] was divided into several articles. This article is dedicated to bugs that trouble Tkabber and its users. For more comfortable navigation there are links to other thematic FAQ pages.
+[[Ткаббер ЧаВо]] разделился на несколько статей. В этой статье разбираются глюки и баги, терзающие Ткаббер и его пользователей. Для удобства даны ссылки на другие тематические страницы ЧаВо.
 
-= Problems Arising During Work =
+= Глюки, возникающие в процессе работы =
 
-== Common Questions ==
+== Общие вопросы ==
 
-=== Long Loading Of Tkabber ===
-'''Question: It takes Tkabber several minutes to start up. First I even thought that it hangs up when starting but one day I possessed my soul in patience and got Tkabber loaded. Once it's loaded it works fine.'''
+=== Долгая загрузка Ткаббера ===
+'''Вопрос: Ткаббер жутко долго грузится. Поначалу я даже думал, что он виснет на старте, но как-то раз набрался тепрения и дождался. Потом работает нормально.'''
 
-Answer: Look at the progress-bar of Tkabber splash-screen. If the words "user interface" are frozen there, then maybe we know what happens. If you have headlines caching enabled and have a lot of RSS feeds in the roster, especially some daily renewed ones, the total quantity of messages in the headlines tab can easily grow up to several hundreds. Of course, to load all of them from a file takes some time. There are several solutions:
-# disable caching, then headlines you haven't read will be lost after closing Tkabber;
-# get rid of unnecessary very active feeds or at least look through and clean big headline lists before closing the program;
-# consider installing some RSS-reader program: usually they work fast and have more RSS-specific features than Tkabber; if you use one, move the most annoying feeds there;
-# put up with a long startup and restart Tkabber seldom;
-# upgrade your hardware;
-# optimize the code. It's all up to you :)
+Ответ: Посмотрите внимательно, что при этом показывает прогресс-бар сплэш-скрина. Если на нём застыли слова "пользовательский интерфейс", то возможно, дело вот в чём. Если у вас включено кэширование новостей, а самих новостных фидов в ростере &mdash; вагон и маленькая тележка, то через некоторое время общее число сообщений может с лёгкостью перевалить за несколько сотен. Естественно, чтобы все их подгрузить из файла, требуется время. Решений несколько:
+# отключить кэширование, тогда при закрытии программы новости, которые вы не успели прочитать, пропадут;
+# избавиться от лишних очень активных фидов или хотя бы просматривать и удалять вручную большие списки новостей перед закрытием программы;
+# смириться с долгой загрузкой или перегружаться как можно реже;
+# проапгрейдить компьютер;
+# оптимизировать код. Выбирать вам :)
 
-=== Tkabber "Hangs" While Trying To Login To A Server ===
+=== Ткаббер "виснет" при попытке логина на сервер ===
 
-'''Question: I press the {{button|Log in}} button in the Login window and Tkabber "hangs up": it either cannot connect to a server at all, or connects after a long pause. What can I do?'''
+'''Вопрос: Нажимаю "Подключиться" в окне логина и Ткаббер "подвисает"; соединение с сервером не происходит (или происходит, но после указанной паузы). Что делать?'''
 
-Answer: In addition to a low quality connection (GPRS in Russia, for example), there are two main causes of this. Both of them arise from the fact that Tkabber makes [http://en.wikipedia.org/wiki/DNS DNS-requests] while connecting to a jabber-server.
+Ответ: Если исключить очень плохое качество связи, которое бывает, например, на GPRS-линках, причин обычно две, и обе они коренятся в том, что Ткаббер в ходе соединения с сервером выполняет запросы к [http://en.wikipedia.org/wiki/DNS DNS].
 
-[[Tkabber and DNS|This article]] gives a broad description of problems with DNS in Tkabber and helps with shooting these troubles.
+[[Ткаббер и DNS|Эта статья]] подробно описывает возможные проблемы с DNS в Ткаббере и методы их решения.
 
-=== Sending Files ===
-'''Question: So does file transfer work or not in Tkabber? My friends and I have tried all options in different ways but nothing helps.'''
+=== Пересылка файлов ===
+'''Вопрос: Так работает в Ткаббере пересылка файлов или нет? Мы с другом пробовали сто раз через все доступные протоколы, и ничего не шлётся.'''
 
-Answer: First of all read [[File Transfer: Theory|some theory]]. It's also explained shortly in the official Tkabber documentation (chapters 4.2.12.&nbsp;The Stream Initiation Module and 4.2.13.&nbsp;The Jidlink Module):
+Ответ: Для начала почитайте '''[[Пересылка файлов: теория|введение]],''' также в сжатой форме это объяснено в официальной документации Ткаббера (разделы 4.2.12.&nbsp;The Stream Initiation Module и 4.2.13.&nbsp;The Jidlink Module):
 * Windows: '''C:\Program Files\Tkabber\tkabber\doc\tkabber.html'''
 * *nix: '''/usr/share/doc/tkabber/tkabber.html'''
 
-Applying the theory one can do the following (these settings are appropriate for most, but <em>not all</em> cases):
+Практическая же реализация (для большинства, но <em>не всех</em> случаев) такова.
 
-Go to '''Tkabber &rarr; Customize &rarr; File Transfer''' and then visit '''Jidlink''' and '''SI'''. In Jidlink enable
+Зайдите в '''Настройки &rarr; File Transfer''' и затем по очереди в '''Jidlink''' и '''SI'''. В Jidlink включите опцию
  ::ft::ftjl::options(enable)
-and disable
+и отключите
  ::jidlink::transport(allowed,dtcp-passive)
-leaving as is '''::jidlink::transport(allowed,dtcp-active)''' and '''::jidlink::transport(allowed,inband-bytestream)'''.
+оставив '''::jidlink::transport(allowed,dtcp-active)''' и '''::jidlink::transport(allowed,inband-bytestream)'''.
 
-In SI disable
+В SI отключите
  <nowiki>::si::transport(allowed,http://jabber.org/protocol/bytestreams)</nowiki>
-and leave
+и оставьте
  <nowiki>::si::transport(allowed,http://jabber.org/protocol/ibb)</nowiki>
-Do not forget to save every changed option for current and future sessions. If file transfer still doesn't work, read the article about it once more.
+Не забудьте сохранить каждую изменяемую опцию для следующих сессий. Если всё равно не работает, перечитайте ещё раз теорию (ссылка в начале ответа).
 
-=== Tkabber Always Keeps Me "Away" ===
+=== Ткаббер постоянно держит меня в состоянии "отошёл" ("away") ===
 
-'''Question: I start Tkabber and it instantly goes "away". When I put some other status manually, Tkabber instantly changes it to "away". What can I do?'''
+'''Вопрос: Запускаю Ткаббер и он тут же переходит в состояние "отошёл". Установка руками любого другого статуса тут же обратно меняется Ткаббером на всё тот же "отошёл". Что делать?'''
 
-Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed. In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to "away" and "extended away" status (ms is a standard Tcl "time quant"). Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute. I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds. If you start Tkabber >= 0.9.8 with an old config <= 0.9.7, then milliseconds are converted to... milliseconds! As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over. A little example (you can repeat it in Tkabber console, {{program|wish}} or {{program|tkcon}}):
+Ответ: Причина проста &mdash; начиная с версии 0.9.8 в настройках Ткаббера поменялся формат времени, задаваемого для запуска Autoaway. В версиях Ткаббера до 0.9.7 включительно время неактивности пользователя до перехода в состояния "отошёл" и "отошёл давно" задавалось в миллисекундах (стандартная единица измерения временных промежутков для тикля). Начиная с версии 0.9.8 эти интервалы начали задаваться в более логичных единицах измерения &mdash; минутах. То есть "новые" версии Ткаббера умножают эти временные интервалы на 60000, чтобы перевести минуты в "тиклевые" миллисекунды. Если происходит неприятность &mdash; Ткаббер версии >= 0.9.8 запускается с файлом конфигурации от версии <= 0.9.7, &mdash; заданные в конфигурации миллисекунды переводятся... в миллисекунды! Получаются огромные числа, переполняющие 32-битное целое со знаком, и Ткаббер начинает считать, что получившийся интервал времени истёк. Иллюстрация (можете повторить сами в консоли Ткаббера, wish или в tkcon):
  % puts [expr 600000*60*1000]
  1640261632
  % puts [expr 600000*120*1000]
  -1014444032
-1 minute timeout would be Ok but as soon as we put 2 minutes we get the error. The Autoaway module compares your current inactivity time to the calculated autoaway value, and if the timeout is less than your inactivity period, Tkabber goes to the "Away" status. As you can see, the timeout of 2 minutes and more will always give negative values that are always less than any inactivity time (even zero).
+То есть, при тайм-ауте в одну минуту всё бы было хорошо, но как только мы ставим две минуты, появляется ошибка. Модуль Autoaway сравнивает текущее время неактивности со значением тайм-аута, и если тайм-аут меньше, Ткаббер переводится в режим "Отошёл". Как видите, при тайм-ауте две минуты и больше Ткаббер всегда будет считать, что мы "отошли".
 
-This problem exists in the official Windows [[Tkabber Distros#Counter|Tkabber Pack]] 0.9.8 and in the official Windows Starpack 0.9.9.
+Такая проблема существует, в частности, в официальном [[Дистрибутивы, которые мы выбираем#Прилавок|Ткаббер-паке]] под Windows версии 0.9.8 и в официальном старпаке под Windows версии 0.9.9.
 
-'''Solution:'''
-Go to '''Tkabber &rarr; Customize &rarr; AutoAway''' and set up the parameters <tt>plugins::autoaway::options(awaytime)</tt> and <tt>plugins::autoaway::options(xatime)</tt> to some reasonable amounts of <em>minutes.</em>
+'''Решение:'''
+Достаточно пойти в настройки плагина '''AutoAway''' '''(Tkabber &rarr; Настройки &rarr; AutoAway)''' и установить там параметры <tt>plugins::autoaway::options(awaytime)</tt> и <tt>plugins::autoaway::options(xatime)</tt> в некоторое разумное количество <em>минут.</em>
 
-Don't forget to save <em>every</em> setting "for current and future sessions", choosing the corresponding menu item you get pressing the "State button".
+Не забудьте сохранить <em>каждую</em> настройку "для текущей и следующих сессий", выбрав соответствующий пункт в меню, вызываемом кнопками "Состояние".
 
-'''Note''' that under Windows autoaway is a bit crappy (probably, due to the '''tclWinidle''' extension bugs). Sometimes Tkabber goes to "extended away" without any obvious reason. If it happens, you have to restart it or, if you're ready to sacrifice your autoaway ability in this session, just set both timeouts to 0 and save both settings <em>"for current session",</em> and then choose the desired status manually.
+'''Обратите внимание''' на то, что под Windows автоэвей несколько глюковат (по-видимому, из-за глюков расширения '''tclWinidle'''). Это выражается в том, что при некоторых (так пока и не зафиксированных) условиях Ткаббер ни с того ни с сего переводит вас в состояние "extended away". Если это произошло, вам придётся рестартовать Ткаббер или, если вы готовы пожертвовать работой автоэвея в течение данного сеанса работы, поставьте оба тайм-аута в 0 и сохраните обе настройки <em>"для текущей сессии",</em> после чего выберите вручную нужное вам состояние доступности.
 
-This bug can be fixed by installing Tcl/Tk 8.5 which has integrated tools to check user's inactivity, and Tkabber (beginning with the version 0.10.0) uses these tools. The extension '''tclWinidle''' (as well as '''tkXwin''' under X Window) becomes unnecessary and you can uninstall it.
+Кардинальным способом борьбы с этим багом является установка Tcl/Tk 8.5, который имеет встроенные средства для отслеживания неактивности пользователя, и Ткаббер (начиная с версии 0.10.0) использует эти средства. Расширение '''tclWinidle''' (как и '''tkXwin''' под X Window) становится при этом ненужным.
 
-Another radical way of fixing this bug is described [[Tkinactive|here]].
+Ещё один кардинальный способ описан [[Tkinactive|тут]].
 
-=== I Can't Connect To A Server Via Proxy ===
+=== Не могу приконнектиться к серверу через прокси ===
 
-'''Question: I cannot connect to a jabber-server via proxy (ICQ works fine).'''
+'''Вопрос: Не могу приконнектиться к серверу через прокси (аська работает).'''
 
-Answer: There are usually two causes that lead to this:
-* Bad settings of your proxy-server in Tkabber;
-* The proxy server denies connections made using HTTP CONNECT to all ports but 443 (HTTPS) (this port is often used by ICQ), and Jabber-server usually listens two following ports:
-** 5222 &mdash; plaintext connection (without encryption) and STARTTLS protocol that allows using SSL are supported;
-** 5223 &mdash; SSL only.
+Ответ: Вариантов обычно два:
+* Кривая настройка прокси-сервера в Ткаббере;
+* Прокси-сервер не пропускает соединения методом CONNECT на порты, отличные от 443 (HTTPS) (туда часто направляют "аську"), а Jabber-сервер обычно принимает соединения на следующие два порта:
+** 5222 &mdash; поддерживается  "plaintext" (соединение без шифрования) и протокол STARTTLS, позволяющий использовать SSL;
+** 5223 &mdash; только SSL.
 
-Read more about the second problem solution [[Between Offline And Online#Connection To An XMPP Server: A Practical Guide|in the following article]].
+Подробное описание обходных манёвров для решения второй проблемы читайте [[Между офлайном и онлайном#Подключение к XMPP серверу: практика|здесь]].
 
-=== Is "Keep Alive" Possible In Tkabber? ===
+=== Keep alive в Ткаббере &mdash; возможно ли? ===
 
-'''Question: Psi and Gajim are able to keep the connection or reconnect to a server if it is broken. It seems that Tkabber doesn't do that. Which is the problem?'''
+'''Вопрос: Psi и Gajim умеют не разрывать соединение или же пересоединяются к серверу при разрыве связи. Ткаббер вроде бы этого не делает. В чём проблема?'''
 
-Answer: It's difficult to give an exact answer because of some facts:
-* Different people understand different things by a term "keep alive";
-* Many people don't understand how TCP works (which serves as a base of XMPP/Jabber) and how it processes "external" disconnections.
+Ответ: Точный ответ на этот вопрос затруднён несколькими обстоятельствами:
+* Разные люди подразумевают разные вещи под понятием "keep alive";
+* Многие не понимают принципов работы протокола TCP (поверх которого "ездит" XMPP (он же Jabber)) и того, как он обрабатывает "внешние" разрывы соединений.
 
-What is called as "keepalive" in Tkabber is a periodical sending to an outgoing XML stream a "space" character (a character with a code 0x20). In terms of XML syntax and semantics, it doesn't affect data transfer; however, it helps <em>keep proxy-servers and NATP-devices from breaking a connection due to its inactivity</em>.
+То, что называется "keepalive" в Ткаббере, представляет собой периодическую запись пробела (символа с кодом 0x20) в исходящий XML-поток. С точки зрения синтаксиса и семантики XML это никак не влияет на передачу данных, но зато позволяет <em>удерживать прокси-серверы и NATP-устройства от разрыва соединения из-за его неактивности</em>.
 
-Please refer to the official Tkabber docs about configuring this "keepalive".
+Про настройку этого keepalive читайте в официальной документации.
 
-Tkabber doesn't support directly so-called "system keepalive" on TCP-sockets level, (and it won't support it in a proximate future due to limitations of TCP-sockets support in Tcl); however, there is <em>a test</em> version of [[Plugins#so_keepalive|a plugin that adds such support]].
+"Системный keepalive" &mdash; на уровне TCP-сокетов &mdash; напрямую в Ткаббере не поддерживается (и не будет в обозримом будущем из-за ограничений поддержки TCP-сокетов в тикле), однако, недавно появилась <em>тестовая</em> версия [[Плагины#so_keepalive|плагина, добавляющего такую поддержку]].
 
-This plugin needs to be seriously and <em>purposefully</em> tested on different platforms. In other words, don't think that after installing this plugin all the problems with infamous inability of Tkabber to detect broken connections will be resolved automatically, since:
-* You'll need to configure your system so that "keepalive on sockets" would do what You want.
-* It is unknown how Tkabber would behave after triggering of some keepalive mechanism and consequent connection break.
+Требуется серьёзное <em>целенаправленное</em> тестирование этого плагина на различных платформах. Другими словами, не думайте, что, установив этот плагин, вы разом решите все проблемы с печально известной неспособностью Ткаббера обнаруживать разорвавшиеся соединения, так как:
+* Требуется настройка системы для того, чтобы "keepalive на сокетах" делал то, что Вам от него нужно;
+* Реакция Ткаббера на разрыв соединения вследствие срабатывания соответствующего механизма keepalive неизвестна.
 
-{{todo|explain in more details about system keepalive?}}
+{{todo|расписать подробно про системный keepalive?}}
 
-You can read about system configuration [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 this conversation] (in Russian) between [[User:Kostix|Kostix]] and j-dreamer, and also the plugin's README file.
+По поводу настройки системы почитайте [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 вот этот трёп] между [[Участник:Kostix|Kostix]] и j-dreamer, а также README в плагине.
 
-{{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}
+{{todo|вынести этот чатлог в отдельную страницу, облагородив, т.е. он со временем отэкспайрится и будет удалён на сервере}}
 
-=== What's Up With The Whiteboard? ===
+=== Что с грифельной доской? ===
 
-'''Question: I opened whiteboard in my room and now I can't get rid of it, it keeps appearing every time I enter it, and it annoys everybody else!'''
+'''Вопрос: Открыл в конфе грифельную доску, теперь не могу её прикончить, она при каждом входе появляется.'''
 
-Answer: It's correct. Whiteboard "messages" are part of conference history so they appear if you have configured the client to show history when entering a room. To git rid of them you need to get rid of old history, i.e. to speak a little bit. On the contrary, if you need to erase history of some room where there are very few visitors and it refreshes too slowly (for instance, you need to get rid of spam messages left by some idiot), you can open the whiteboard and draw something so that unwanted text disappeared from the history. Of course, now we get annoying whiteboard but we already know what to do ;) It's your task now to determine how many squares and circles are required to erase spam and how many greetings are required to erase polygons.
+Ответ: Всё правильно. "Сообщения" доски выводятся как часть истории разговора в конференции. Вывод: чтобы избавиться от неё, надо затереть историю другими сообщениями, то есть банально поразговаривать. И наоборот, если вам нужно быстро затереть историю малопосещаемой комнаты, где история естественным путём обновляется редко, а тут зашёл спамер или хулиган и наспамил или наматерился, то можно открыть доску и нарисовать чего-нибудь, чтобы нежелательный текст ушёл в туман. Естественно, теперь начнёт доставать доска, но её мы убивать уже умеем ;) Количественные параметры для затирания того и другого предлагается определить самостоятельно.
 
-=== Tkabber Can't See A SSL-Certificate Of My Jabber Server ===
+=== Ткаббер в упор не видит SSL-сертификат для коннекта к серверу ===
 
-'''Question: I provide a path to a certificate directory where there are a certificate for connection to a server, but Tkabber can't see a necessary certificate (for instance, it says that the server certificate is self-signed or it has a self-signed certificate in its chain of trusted certificates).
+'''Вопрос: Указываю путь до каталога с сертификатами, среди которых есть сертификат для коннекта с серверу, но Ткаббер не видит нужный сертификат (например, ругаясь на то, что сертификат сервера самоподписан или имеет в цепочке доверенных сертификатов самоподписанный сертификат).'''
 
-Answer: A very detailed article about CA, certificates and Tkabber can be found [[Server Certificate Verification#Practice|here]].
+Ответ: Подробный рассказ про сертификаты ЦС и Ткаббер находится [[Проверка сертификата сервера#Практика|здесь]].
 
-=== I Can't Edit Conference Bookmarks In Roster ===
+=== Не могу отредактировать закладку конференции в ростере ===
 
-'''Question: I'm trying to edit a conference bookmark in my roster so that, for instance, to enable autojoin to it; however, I'm only able to change the "nick" of this conference. What can I do?'''
+'''Вопрос: Пытаюсь отредактировать закладку конференции в списке контактов &mdash; например, включить автовход для этой конференции, &mdash; однако, в появившемся диалоге могу изменить только "ник" конференции. Что делать?'''
 
-Answer: The problem is that besides of <em>a bookmark</em> in you r roster that refers to a room's JID you have <em>a contact</em> with the same JID.
+Ответ: Проблема в том, что помимо <em>закладки,</em> ссылающейся на JID комнаты, у вас в списке контактов есть <em>контакт</em> с таким же JID.
 
-The problem is explained below and here is given the only way to arrange it: delete the bookmark (via its context menu) &mdash; it will delete both the bookmark and a corresponding roster element, after that just add a needed conference once more &mdash; via chat menu or main menu: '''Services &rarr; Add conference to the roster...'''.
+Подробное описание проблемы дано чуть ниже, а метод борьбы с этим недугом один: удалите закладку (через её контекстного меню) &mdash; при этом удалится как закладка, так и "замаскированный" ею элемент списка контактов, после чего добавьте нужную конференцию в закладки ещё раз &mdash; из меню чата в конференции или из главного меню ("Службы" &rarr; "Добавить конференцию в контакты...").
 
 '''Подробное описание проблемы:''' Хотя Ткаббер и показывает закладки на конференции в ростере (что удобно для пользователя), <em>физически закладки не находятся в списке контактов пользователя</em> &mdash; они хранятся в особом "приватном хранилище" (см. [http://www.xmpp.org/extensions/attic/xep-0048-1.0.html XEP-0048 (historical)] и [http://www.xmpp.org/extensions/xep-0049.html XEP-0049]).
 
@@ -138,7 +137,7 @@ The problem is explained below and here is given the only way to arrange it: del
 
 '''Примечание:''' Ещё один способ узнать, есть ли у конференции "глюк с маскировкой", состоит в следующем: тултип на закладке должен показать "Подписка: bookmark". Если он показывает "Подписка: none", вы наступили на описываемую проблему, и закладку придётся передобавить.
 
-=== Tkabber And iChat ===
+=== Ткаббер и iChat ===
 
 '''Вопрос: I'm sick and tired of getting a lot of iq-s from some of my contacts that use iChat. Whose balls should I cut off: Apple or Tkabber developers? What can I do with Tkabber (or iChat) meanwhile?'''
 
@@ -195,10 +194,10 @@ The problem is explained below and here is given the only way to arrange it: del
 
 {{todo|Translate it to Russian}}
 
-== Questions Related To Linux ==
+== Вопросы, связанные с Линукс ==
 
-=== Encryption In Tkabber: Problems With gpgme/tclgpgme ===
-==== I Can't Compile tclgpgme ====
+=== Шифрование в Ткаббере: проблемы с '''gpgme/tclgpgme''' ===
+==== Не могу скомпилировать tclgpgme ====
 
 '''Вопрос: Вот, собственно, сабж...'''
 
@@ -237,13 +236,13 @@ The problem is explained below and here is given the only way to arrange it: del
 
 '''Важное дополнение:''' С осени 2008 года можно забыть tclgpgme, как страшный сон. [[Ткаббер ЧаВо/Как мне...?#Как мне собрать новый tclgpg с googlecode?|Вот тут рассказано]], как собрать и прикрутить новый tcl-интерфейс к GnuPG &mdash; [http://tclgpg.googlecode.com tclgpg].
 
-==== Tkabber Crashes When I Enter A gpg Passphrase ====
+==== Ткаббер валится при вводе gpg-пароля ====
 
 '''Вопрос: Если при запуске Ткаббера не вводить пароль сразу, а потом во время работы нажать кнопку '''Toggle signing''' (тогда Ткаббер при первой необходимости сам запросит пароль), то обнаруживается такой глюк: если в промежутке между запросом пароля и его вводом пришло сообщение, то при попытке ввести пароль Ткаббер просто валится. Попутно с запросом пароля появляется также сообщение об ошибке в "encryption software". В чём может быть дело?'''
 
 Ответ: По всей видимости, есть баг в потрохах tclgpgme, и надо его искать, что не очень-то реально. Учитывая общую ситуацию с [[Шифрование в Ткаббере|шифрованием в Ткаббере]], выводы напрашиваются неутешительные. Проще сделать всё заново, чем доводить до ума имеющиеся библиотеки. Если у вас есть на это время, способности и желание, намёк должен быть понятен &mdash; человечество вас не забудет ;)
 
-=== I Can't Write In Cyrillic In Tkabber Under Ubuntu ===
+=== В Ubuntu не вводятся русские буквы в Ткаббере, chto delat? ===
 
 '''Вопрос: В Ubuntu не вводятся русские буквы в Ткаббере, chto delat?'''
 
@@ -255,7 +254,7 @@ The problem is explained below and here is given the only way to arrange it: del
 * [[Плагины#Tkabber-KHIM (уже добавлен в транк)|Tkabber-KHIM]] :-D
 * В свежих версиях (7.04 и выше) проблемы не наблюдается, то есть надо просто обновиться :-)
 
-=== Tkabber Crashes When Trying To Display "Strange" Characters Under X Window ===
+=== Ткаббер под X Window падает при попытке показать "странные" символы ===
 
 '''Вопрос: Ткаббер под X Window падает при попытке показать "странные" символы (вроде этого: "&#8226;") с ошибкой:'''
 
@@ -267,7 +266,7 @@ The problem is explained below and here is given the only way to arrange it: del
 
 Подробнее читайте [[Проблемы X Window и TTF|тут]].
 
-=== Inserting By Control-v Under X Window Doesn't Work ===
+=== Не работает вставка по Control-v под X Window ===
 
 '''Вопрос: В многострочных полях ввода не работает вставка текста из буфера обмена, помещённого туда по Control-c (и другим комбинациям).'''
 
@@ -287,17 +286,17 @@ The problem is explained below and here is given the only way to arrange it: del
 
 P.S. Кстати говоря, под "иксами" в Tk-приложениях вставка из буфера всю жизнь прекрасно работала по '''Control-y'''.
 
-=== Minimizing To The Systray Doesn't Work In Gentoo ===
+=== В Gentoo не работает сворачивание в трей ===
 '''Вопрос: Что нужно, чтобы в Gentoo Ткаббер мог сворачиваться в трей?'''
 
 Ответ: Необходимо наличие установленного пакета ''dev-tcltk/tktray''.
 
-=== Fedora 8 And Tcl/Tk 8.5 ===
-'''Вопрос: Нет поддержки сглаживания шрифтов и/или autoaway в Fedora 8 и Tcl/Tk 8.5. What can I do?'''
+=== Fedora 8 и Tcl/Tk 8.5 ===
+'''Вопрос: Нет поддержки сглаживания шрифтов и/или autoaway в Fedora 8 и Tcl/Tk 8.5. Что делать?'''
 
 Ответ: Убедиться, что при сборке Tk установлены библиотеки libXft-devel и libXScrnSaver-devel (при установке libX11-devel эти пакеты автоматом не вытягиваются по зависимостям, а Tk спокойно собирается без них).
 
-=== I Updated Tcl/Tk To 8.5 But Tkabber Still Starts With 8.4 ===
+=== Обновил тикль до 8.5, но Ткаббер по-прежнему запускается с 8.4 ===
 '''Вопрос: Вот, не знаю, что и делать. Новый тикль в системе есть, а Ткаббер его не видит.'''
 
 И не увидит, пока вы ему об этом не скажете. Это задачка на сообразительность. Смотрим файл {{file|tkabber.tcl}}: в самом начале есть строчка, перезапускающая Ткаббер "in true way", через интерпретатор wish. Значит, собака порылась в нём. Набираем в консоли
@@ -314,15 +313,15 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 Немного более подробно о той же проблеме рассказано [http://www.jabber.ru/node/825 тут].
 
-== Questions Related To Windows ==
+== Вопросы, связанные с Виндовс ==
 
-=== A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG/Compression ===
+=== В старпаке/старките нет звука/поддержки JPEG,PNG/сжатия ===
 
-'''Вопрос: В старпаке (или старките) не работает звук. Его включение/выключение ни к чему не приводит. What can I do?'''
+'''Вопрос: В старпаке (или старките) не работает звук. Его включение/выключение ни к чему не приводит. Что делать?'''
 
 Ответ: Читайте '''[[Проблемы со звуком#В старпаке/старките нет звука|эту статью]]'''.
 
-'''Вопрос: Старпак не показывает фотки в формате JPEG или PNG. What can I do?'''
+'''Вопрос: Старпак не показывает фотки в формате JPEG или PNG. Что делать?'''
 
 Информация про старый старпак находится [[ЧаВо 0.9.9|тут]].
 
@@ -342,7 +341,7 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 Старпака 0.10.0 с поддержкой сжатия на данный момент <em>не существует</em>.
 
-=== Opening Links In Browser Under Windows Doesn't Work ===
+=== Не работает браузер под виндами ===
 
 '''Вопрос: Прописал в настройках Ткаббера для браузера ('''Настройки &rarr; Main Interface &rarr; webbrowser''') имя исполняемого файла &mdash; не работает. Прописал полный путь к нему &mdash; то же самое.'''
 
@@ -356,13 +355,13 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 * Рассказ о том, как можно указывать [[Config.tcl#Немного о синтаксисе тикля|путевые имена в тикле]];
 * Рассказ о том, как можно [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/12/23.html#19:56:27 прострелить себе ногу опцией ::webbrowser].
 
-=== When Clicking On A Link In Tkabber Two Operas Run And Open The Page Two Times ===
+=== При клике на URL'е в Ткаббере запускается две Оперы и открывают страницу два раза ===
 
-'''Вопрос: У меня Опера. При попытке открыть ссылку из Ткаббера, запускается две копии Оперы и открывают ссылку два раза. What can I do?'''
+'''Вопрос: У меня Опера. При попытке открыть ссылку из Ткаббера, запускается две копии Оперы и открывают ссылку два раза. Что делать?'''
 
 Ответ: Баг реализации DDE в Опере. Решением является прописывание полного пути до исполняемого файла этого браузера в настройке "webbrowser" Ткаббера (см. [[Ткаббер ЧаВо#Не работает браузер под виндами|выше]]).
 
-=== Strange Behaviour Of Chat Window When Using Mouse Wheel ===
+=== Странное поведение прокрутки содержимого окна чата колесом мыши ===
 
 '''Вопрос: Малейшее движение колесом мыши с целью прокрутить содержимое окна чата вверх или вниз "очищает" окно чата &mdash; никакого текста не видно. Другими словами &mdash; впечатление такое, что скроллинг колесом мыши обладает чрезмерной чувствительностью.'''
 
@@ -385,7 +384,7 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 {{todo|'''ОЧЕНЬ''' желательно иметь точные описания настройки разных типов глючных "родных" драйверов. Можно даже со скриншотами. Не ленитесь присылать. Если вы выкладываете скриншот сами и хотите внести правку в этот раздел самостоятельно, помните, что страница ЧаВо &mdash; одна из самых "тяжёлых" на вики. Давайте лишь текстовую ссылку на изображение (см. код вышеприведённого примера про мышь Genius).}}
 
-=== I Got This Error: wrong # args: should be "zlib option data ?...?". What Do I Do? ===
+=== Ошибка: wrong # args: should be "zlib option data ?...?", что делать? ===
 
 '''Вопрос: Ткаббер выдаёт ошибку:'''
  wrong # args: should be "zlib option data ?...?"
@@ -401,15 +400,15 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 * Взять последний [http://tkabber.jabber.ru/tkabber-pack Tkabber-Pack] &mdash; пакет, который устанавливает в систему микродистрибутив Tcl/Tk и все нужные пакеты (включая поддержку сжатия). Файл инсталлятора "весит" примерно столько же, сколько и файл со старпаком. (Вот &mdash; [http://www.jabber.ru/node/439 заметка на русском про Ткаббер-пак версии 0.10.0])
 * Сделать "каноническую" установку Ткаббера согласно [[Tkabber Windows Mini HOWTO|этому документу]].
 
-=== Windows, ActiveState Tcl/Tk: Tkabber Crashes After Hitting "Alt-Any Key" In Main Window ===
+=== Windows, дистрибутив от ActiveState &mdash; "падения" при нажатии Alt-любая кнопка в главном окне ===
 
 Ответ: Проблема в Tk 8.4.15 и 8.5a6. Откатитесь на 8.4.14, или "докатитесь" до 8.4.16 и 8.5b1, соответственно.
 
-=== Windows, ActiveState Tcl/Tk: Crashes When Opening In Background A Window With A Smilie ===
+=== Windows, дистрибутив от ActiveState &mdash; "падения" при открытии в фоне окна со смайликом ===
 
 Ответ: Проблема в Tk 8.4.15 и 8.5a7. Откатитесь на 8.4.14 или "докатитесь" до 8.4.16 и 8.5b1, соответственно.
 
-=== Fatal Error In "wish" When Running Full Screen Programs Under Windows ===
+=== Фатальная ошибка в wish при запуске полноэкранных приложений под Windows ===
 
 '''Вопрос: При запуске какой-либо программы в полноэкранном режиме (будь то игра или банальный FAR), wish валится с ошибкой: Tried to free a color that isn't allocated!'''
 
@@ -417,14 +416,14 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 Кроме того, имейте в виду, что эта проблема <em>вроде бы</em> изжита в Tk 8.5. Однако, это требует проверки. Если вы можете подтвердить или опровергнуть эту информацию, не поленитесь сообщить об этом (здесь или в комнате xmpp:tkabber@conference.jabber.ru).
 
-= Appearance And Sound =
+= Внешний вид и звук =
 
-[[Tkabber FAQ/Appearance And Sound]]
+[[Ткаббер ЧаВо/Внешний вид и звук]]
 
-= How Do I...? =
+= А как мне...? =
 
-[[Tkabber FAQ/How Do I...?]]
+[[Ткаббер ЧаВо/Как мне...?]]
 
-= Miscellaneous =
+= Всякая всячина =
 
-[[Tkabber FAQ/Misc]]
+[[Ткаббер ЧаВо/Разное]]
