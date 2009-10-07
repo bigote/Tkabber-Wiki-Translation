@@ -2,4 +2,14 @@ This progect is intended to help myself and other translators (if any) to transl
 
 This repository organization is quite simple: there is a subdirectory for each language pair. So, when somebody is going to create a Spanish version he or she should create a subdirectory en_es where a new OmegaT project will be placed.
 
-If you plan to use some other CAT tool for translation please keep in mind that 
+If you plan to use some other CAT tool for translation please keep in mind that you should commit only plain text TMs and source/target files. For instance, please don't use OpenOffice documents as source files, as they are in binary format and it will give us a lot of problems in the future since the repository won't be able to store textual difference but will have to save very large (comparing to plain text) OO documents as is. In fact, I've added such files to .gitignore so they won't be commited at all :) But please do not forget about TMs.
+
+If you are going to translate from English to other language you can skip the next section. OmegaT has a special button for importing MediaWiki pages in a dialog that you call when pressing Ctrl-L (project files). You just have to provide a link to that page and hit OK. OmegaT will download that page and add it to the list of files.
+
+Unfortunately, the import feature described above doesn't help when you try to import pages that have Cyrillic names. You get a new file called "SomeCyrillicName.utf8" in the source directory but it's empty and it doesn't appear in the file list. This means you have to do the work manually.
+
+
+1) Create a new text file in the source directory. Its name should be written in Latin characters, the extension should be .utf8 and its encoding, obviously, shoud be utf-8.
+2) Open in your browser a Tkabber Wiki article you would like to translate and click Edit link in the top part of it.
+3) Copy the whole text that contains all MediaWiki formatting and paste it into the file you've created earlier.
+4) Save the file and open the project using OmegaT
