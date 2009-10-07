@@ -17,6 +17,21 @@ However, before you start you will need to check some settings. First of all, go
 
 The process of Tkabber Wiki translation is described on its Help page that can be found here: http://en.tkabber.jabe.ru/index.php/Help:Contents Please refer to it for further reading.
 
-It's always a good idea to do backups often. 
+It's always a good idea to do backups often. When in Linux, it's as easy as the following:
+
+1) Create some script file, like ~/bin/auto_git_commit
+2) Add the following text in it (edit the "commit" part to specify your name and JID or to remove them):
+cd ~/path/to/Tkabber-Wiki-Translation
+git add .
+git commit -m "autocommit at `date` by Your Name <xmpp:your_jid@jabber.org>" >> .TM-commit-log
+echo "======" >> .TM-commit-log
+3) Make it executable: chmod 755 ~/bin/auto_git_commit
+4) Open crontab for editing: crontab -e
+5) Add the following line in it:
+0,20,40 * * * * ~/bin/auto_git_commit > /dev/null
+6) You can change the first parameter, which is minutes, so that do backups more often: 0,15,30,45
+7) Save both files and you're done. OmegaT has autosave every 5 or 10 minutes, and cron will do autocommits every 20 (or 15 if you want to and do so) minutes. Of course, you can still do manual commits to specify the changes you've done. Just keep in mind you'd better do them just after an autocommit (better at 18:05 than at 17:55) so that you had more time to write a nice comment. When you'd like to push changes to github you'd better do it manually.
+
+I suppose something like this can be done in Windows but I have no idea how to do this so if anybody would like to share such knowledge please add it to this README :)
 
 Should you have any other questions please don't hesitate and ask me via Jabber either directly <xmpp:bigote@jabber.ru> or entering conferences <xmpp:tkabber-wiki@conference.jabber.ru> or <xmpp:translate@conference.jabber.ru>. If you have questions regarding Tkabber itself feel free ask them here: <xmpp:tkabber@conference.jabber.ru>.
