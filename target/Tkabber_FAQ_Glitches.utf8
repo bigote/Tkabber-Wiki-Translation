@@ -1,75 +1,76 @@
-[[en:Tkabber FAQ/Glitches]]
+[[ru:Ткаббер ЧаВо/Глюки]]
 [[es:Preguntas frecuentes sobre Tkabber/Problemas]]
 [[uk:Ткаббер ЧЗП/Глюки]]
 
-[[Ткаббер ЧаВо]] разделился на несколько статей. В этой статье разбираются глюки и баги, терзающие Ткаббер и его пользователей. Для удобства даны ссылки на другие тематические страницы ЧаВо.
+[[Tkabber FAQ]] was divided into several articles. This article is dedicated to bugs that trouble Tkabber and its users. For more comfortable navigation there are links to other thematic FAQ pages.
 
 = Problems Arising During Work =
 
 == Common Questions ==
 
-=== Tkabber And Ufanet ===
-'''Вопрос: Почему все мои пользователи в оффлайне??? Пытаюсь подключиться к аське через ЛОКАЛ, и не могу, а через ВНЕШКУ могу. Что за дела???'''
-
-Ответ: На самом деле Ткаббер тут ни при чём. Это проблема вашего аськиного гейта на Уфанете (как вы его называете, ЛОКАЛ). ВНЕШКА &mdash; соединение со стандартным сервером аськи, будет работать до тех пор, пока жива сама аська. Насчёт же ЛОКАЛа обращайтесь к вашему системному администратору (который, кстати, в эксклюзивном интервью нашему журналисту сказал, что джаббер-сервер на Уфанете &mdash; его личная инициатива, за которую он, по всей видимости, кроме головной боли, ничего не получает, поэтому сей сервис предоставляется на условиях "as is", то есть: работает &mdash; хорошо, не работает &mdash; ищите другой сервер). Жаловаться в '''нашей''' конференции на '''ваш''' ЛОКАЛ бессмысленно. Можете обратиться за дополнительными разъяснениями к следующим людям: xmpp:Rail@jabber.ufanet.ru, xmpp:mircas@jabber.ufanet.ru, а также на конференцию xmpp:chat@conference.jabber.ufanet.ru
-
 === Long Loading Of Tkabber ===
-'''Вопрос: Ткаббер жутко долго грузится. Поначалу я даже думал, что он виснет на старте, но как-то раз набрался тепрения и дождался. Потом работает нормально.'''
+'''Question: It takes Tkabber several minutes to start up. First I even thought that it hangs up when starting but one day I possessed my soul in patience and got Tkabber loaded. Once it's loaded it works fine.'''
 
-Ответ: Посмотрите внимательно, что при этом показывает прогресс-бар сплэш-скрина. Если на нём застыли слова "пользовательский интерфейс", то возможно, дело вот в чём. Если у вас включено кэширование новостей, а самих новостных фидов в ростере &mdash; вагон и маленькая тележка, то через некоторое время общее число сообщений может с лёгкостью перевалить за несколько сотен. Естественно, чтобы все их подгрузить из файла, требуется время. Решений несколько: 1) отключить кэширование, тогда при закрытии программы новости, которые вы не успели прочитать, пропадут; 2) избавиться от лишних очень активных фидов или хотя бы просматривать и удалять вручную большие списки новостей перед закрытием программы; 3) смириться с долгой загрузкой или перегружаться как можно реже; 4) проапгрейдить компьютер; 5) оптимизировать код. Выбирать вам :)
+Answer: Look at the progress-bar of Tkabber splash-screen. If the words "user interface" are frozen there, then maybe we know what happens. If you have headlines caching enabled and have a lot of RSS feeds in the roster, especially some daily renewed ones, the total quantity of messages in the headlines tab can easily grow up to several hundreds. Of course, to load all of them from a file takes some time. There are several solutions:
+# disable caching, then headlines you haven't read will be lost after closing Tkabber;
+# get rid of unnecessary very active feeds or at least look through and clean big headline lists before closing the program;
+# consider installing some RSS-reader program: usually they work fast and have more RSS-specific features than Tkabber; if you use one, move the most annoying feeds there;
+# put up with a long startup and restart Tkabber seldom;
+# upgrade your hardware;
+# optimize the code. It's all up to you :)
 
 === Tkabber "Hangs Up" While Trying To Login To A Server ===
 
-'''Вопрос: Нажимаю "Подключиться" в окне логина и Ткаббер "подвисает"; соединение с сервером не происходит (или происходит, но после указанной паузы). Что делать?'''
+'''Question: I press the {{button|Log in}} button in the Login window and Tkabber "hangs up": it either cannot connect to a server at all, or connects after a long pause. What can I do?'''
 
-Ответ: Если исключить очень плохое качество связи, которое бывает, например, на GPRS-линках, причин обычно две, и обе они коренятся в том, что Ткаббер в ходе соединения с сервером выполняет запросы к [http://en.wikipedia.org/wiki/DNS DNS].
+Answer: In addition to a low quality connection (GPRS in Russia, for example), there are two main causes of this. Both of them arise from the fact that Tkabber makes [http://en.wikipedia.org/wiki/DNS DNS-requests] while connecting to a jabber-server.
 
-[[Ткаббер и DNS|Эта статья]] подробно описывает возможные проблемы с DNS в Ткаббере и методы их решения.
+[[Tkabber and DNS|This article]] gives a broad description of problems with DNS in Tkabber and helps with shooting these troubles.
 
 === Sending Files ===
-'''Вопрос: Так работает в Ткаббере пересылка файлов или нет? Мы с другом пробовали сто раз через все доступные протоколы, и ничего не шлётся.'''
+'''Question: So does file transfer work or not in Tkabber? My friends and I have tried all options in different ways but nothing helps.'''
 
-Ответ: Для начала почитайте '''[[Пересылка файлов: теория|введение]],''' также в сжатой форме это объяснено в официальной документации Ткаббера (разделы 4.2.12.&nbsp;The Stream Initiation Module и 4.2.13.&nbsp;The Jidlink Module):
+Answer: First of all read [[File Transfer: Theory|some theory]]. It's also explained shortly in the official Tkabber documentation (chapters 4.2.12.&nbsp;The Stream Initiation Module and 4.2.13.&nbsp;The Jidlink Module):
 * Windows: '''C:\Program Files\Tkabber\tkabber\doc\tkabber.html'''
 * *nix: '''/usr/share/doc/tkabber/tkabber.html'''
 
-Практическая же реализация (для большинства, но <em>не всех</em> случаев) такова.
+Applying the theory one can do the following (these settings are appropriate for most, but <em>not all</em> cases):
 
-Зайдите в '''Настройки &rarr; File Transfer''' и затем по очереди в '''Jidlink''' и '''SI'''. В Jidlink включите опцию
+Go to '''Tkabber &rarr; Customize &rarr; File Transfer''' and then visit '''Jidlink''' and '''SI'''. In Jidlink enable
  ::ft::ftjl::options(enable)
-и отключите
+and disable
  ::jidlink::transport(allowed,dtcp-passive)
-оставив '''::jidlink::transport(allowed,dtcp-active)''' и '''::jidlink::transport(allowed,inband-bytestream)'''.
+leaving as is '''::jidlink::transport(allowed,dtcp-active)''' and '''::jidlink::transport(allowed,inband-bytestream)'''.
 
-В SI отключите
+In SI disable
  <nowiki>::si::transport(allowed,http://jabber.org/protocol/bytestreams)</nowiki>
-и оставьте
+and leave
  <nowiki>::si::transport(allowed,http://jabber.org/protocol/ibb)</nowiki>
-Не забудьте сохранить каждую изменяемую опцию для следующих сессий. Если всё равно не работает, перечитайте ещё раз теорию (ссылка в начале ответа).
+Do not forget to save every changed option for current and future sessions. If file transfer still doesn't work, read the article about it once more.
 
 === Tkabber Always Keeps Me "Away" ===
 
-'''Вопрос: Запускаю Ткаббер и он тут же переходит в состояние "отошёл". Установка руками любого другого статуса тут же обратно меняется Ткаббером на всё тот же "отошёл". Что делать?'''
+'''Question: I start Tkabber and it instantly goes "away". When I put some other status manually, Tkabber instantly changes it to "away". What can I do?'''
 
-Ответ: Причина проста &mdash; начиная с версии 0.9.8 в настройках Ткаббера поменялся формат времени, задаваемого для запуска Autoaway. В версиях Ткаббера до 0.9.7 включительно время неактивности пользователя до перехода в состояния "отошёл" и "отошёл давно" задавалось в миллисекундах (стандартная единица измерения временных промежутков для тикля). Начиная с версии 0.9.8 эти интервалы начали задаваться в более логичных единицах измерения &mdash; минутах. То есть "новые" версии Ткаббера умножают эти временные интервалы на 60000, чтобы перевести минуты в "тиклевые" миллисекунды. Если происходит неприятность &mdash; Ткаббер версии >= 0.9.8 запускается с файлом конфигурации от версии <= 0.9.7, &mdash; заданные в конфигурации миллисекунды переводятся... в миллисекунды! Получаются огромные числа, переполняющие 32-битное целое со знаком, и Ткаббер начинает считать, что получившийся интервал времени истёк. Иллюстрация (можете повторить сами в консоли Ткаббера, wish или в tkcon):
+Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed. In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to "away" and "extended away" status (ms is a standard Tcl "time quant"). Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute. I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds. If you start Tkabber >= 0.9.8 with an old config <= 0.9.7, then milliseconds are converted to... milliseconds! As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over. A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):
  % puts [expr 600000*60*1000]
  1640261632
  % puts [expr 600000*120*1000]
  -1014444032
-То есть, при тайм-ауте в одну минуту всё бы было хорошо, но как только мы ставим две минуты, появляется ошибка. Модуль Autoaway сравнивает текущее время неактивности со значением тайм-аута, и если тайм-аут меньше, Ткаббер переводится в режим "Отошёл". Как видите, при тайм-ауте две минуты и больше Ткаббер всегда будет считать, что мы "отошли".
+1 minute timeout would be Ok but as soon as we put 2 minutes we get the error. The Autoaway module compares your current inactivity time to the calculated autoaway value, and if the timeout is less than your inactivity period, Tkabber goes to the "Away" status. As you can see, the timeout of 2 minutes and more will always give negative values that are always less than any inactivity time (even zero).
 
-Такая проблема существует, в частности, в официальном [[Дистрибутивы, которые мы выбираем#Прилавок|Ткаббер-паке]] под Windows версии 0.9.8 и в официальном старпаке под Windows версии 0.9.9.
+This problem exists in the official Windows [[Tkabber Distros#Counter|Tkabber Pack]] 0.9.8 and in the official Windows Starpack 0.9.9.
 
-'''Решение:'''
-Достаточно пойти в настройки плагина '''AutoAway''' '''(Tkabber &rarr; Настройки &rarr; AutoAway)''' и установить там параметры <tt>plugins::autoaway::options(awaytime)</tt> и <tt>plugins::autoaway::options(xatime)</tt> в некоторое разумное количество <em>минут.</em>
+'''Solution:'''
+Go to '''Tkabber &rarr; Customize &rarr; AutoAway''' and set up the parameters <tt>plugins::autoaway::options(awaytime)</tt> and <tt>plugins::autoaway::options(xatime)</tt> to some reasonable amounts of <em>minutes.</em>
 
-Не забудьте сохранить <em>каждую</em> настройку "для текущей и следующих сессий", выбрав соответствующий пункт в меню, вызываемом кнопками "Состояние".
+Don't forget to save <em>every</em> setting "for current and future sessions", choosing the corresponding menu item you get pressing the "State button".
 
-'''Обратите внимание''' на то, что под Windows автоэвей несколько глюковат (по-видимому, из-за глюков расширения '''tclWinidle'''). Это выражается в том, что при некоторых (так пока и не зафиксированных) условиях Ткаббер ни с того ни с сего переводит вас в состояние "extended away". Если это произошло, вам придётся рестартовать Ткаббер или, если вы готовы пожертвовать работой автоэвея в течение данного сеанса работы, поставьте оба тайм-аута в 0 и сохраните обе настройки <em>"для текущей сессии",</em> после чего выберите вручную нужное вам состояние доступности.
+'''Note''' that under Windows autoaway is a bit crappy (probably, due to the '''tclWinidle''' extension bugs). Sometimes Tkabber goes to "extended away" without any obvious reason. If it happens, you have to restart it or, if you're ready to sacrifice your autoaway ability in this session, just set both timeouts to 0 and save both settings <em>"for current session",</em> and then choose the desired status manually.
 
-Кардинальным способом борьбы с этим багом является установка Tcl/Tk 8.5, который имеет встроенные средства для отслеживания неактивности пользователя, и Ткаббер (начиная с версии 0.10.0) использует эти средства. Расширение '''tclWinidle''' (как и '''tkXwin''' под X Window) становится при этом ненужным.
+This bug can be fixed by installing Tcl/Tk 8.5 which has integrated tools to check user's inactivity, and Tkabber (beginning with the version 0.10.0) uses these tools. The extension '''tclWinidle''' (as well as '''tkXwin''' under X Window) becomes unnecessary and you can uninstall it.
 
-Ещё один кардинальный способ описан [[Tkinactive|тут]].
+Another radical way of fixing this bug is described [[Tkinactive|here]].
 
 === I Can't Connect To A Server Via Proxy ===
 
@@ -121,7 +122,7 @@
 
 === I Can't Edit Conference Bookmarks In Roster ===
 
-'''Вопрос: Пытаюсь отредактировать закладку конференции в списке контактов &mdash; например, включить автовход для этой конференции, &mdash; однако, в появившемся диалоге могу изменить только "ник" конференции. Что делать?'''
+'''Вопрос: Пытаюсь отредактировать закладку конференции в списке контактов &mdash; например, включить автовход для этой конференции, &mdash; однако, в появившемся диалоге могу изменить только "ник" конференции. What can I do?'''
 
 Ответ: Проблема в том, что помимо <em>закладки,</em> ссылающейся на JID комнаты, у вас в списке контактов есть <em>контакт</em> с таким же JID.
 
@@ -292,7 +293,7 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 Ответ: Необходимо наличие установленного пакета ''dev-tcltk/tktray''.
 
 === Fedora 8 And Tcl/Tk 8.5 ===
-'''Вопрос: Нет поддержки сглаживания шрифтов и/или autoaway в Fedora 8 и Tcl/Tk 8.5. Что делать?'''
+'''Вопрос: Нет поддержки сглаживания шрифтов и/или autoaway в Fedora 8 и Tcl/Tk 8.5. What can I do?'''
 
 Ответ: Убедиться, что при сборке Tk установлены библиотеки libXft-devel и libXScrnSaver-devel (при установке libX11-devel эти пакеты автоматом не вытягиваются по зависимостям, а Tk спокойно собирается без них).
 
@@ -317,11 +318,11 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 === A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG/Compression ===
 
-'''Вопрос: В старпаке (или старките) не работает звук. Его включение/выключение ни к чему не приводит. Что делать?'''
+'''Вопрос: В старпаке (или старките) не работает звук. Его включение/выключение ни к чему не приводит. What can I do?'''
 
 Ответ: Читайте '''[[Проблемы со звуком#В старпаке/старките нет звука|эту статью]]'''.
 
-'''Вопрос: Старпак не показывает фотки в формате JPEG или PNG. Что делать?'''
+'''Вопрос: Старпак не показывает фотки в формате JPEG или PNG. What can I do?'''
 
 Информация про старый старпак находится [[ЧаВо 0.9.9|тут]].
 
@@ -357,7 +358,7 @@ P.S. Кстати говоря, под "иксами" в Tk-приложения
 
 === When Clicking On A Link In Tkabber Two Operas Run And Open The Page Two Times ===
 
-'''Вопрос: У меня Опера. При попытке открыть ссылку из Ткаббера, запускается две копии Оперы и открывают ссылку два раза. Что делать?'''
+'''Вопрос: У меня Опера. При попытке открыть ссылку из Ткаббера, запускается две копии Оперы и открывают ссылку два раза. What can I do?'''
 
 Ответ: Баг реализации DDE в Опере. Решением является прописывание полного пути до исполняемого файла этого браузера в настройке "webbrowser" Ткаббера (см. [[Ткаббер ЧаВо#Не работает браузер под виндами|выше]]).
 

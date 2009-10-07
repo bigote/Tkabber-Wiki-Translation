@@ -2501,5 +2501,229 @@
         <seg>A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>То есть, при тайм-ауте в одну минуту всё бы было хорошо, но как только мы ставим две минуты, появляется ошибка.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>1 minute timeout would be Ok but as soon as we put 2 minutes we get the error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Модуль Autoaway сравнивает текущее время неактивности со значением тайм-аута, и если тайм-аут меньше, Ткаббер переводится в режим &quot;Отошёл&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The Autoaway module compares your current inactivity time to the calculated autoaway value, and if the timeout is less than your inactivity period, Tkabber goes to the &quot;Away&quot; status.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Как видите, при тайм-ауте две минуты и больше Ткаббер всегда будет считать, что мы &quot;отошли&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>As you can see, the timeout of 2 minutes and more will always give negative values that are always less than any inactivity time (even zero).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Такая проблема существует, в частности, в официальном [[Дистрибутивы, которые мы выбираем#Прилавок|Ткаббер-паке]] под Windows версии 0.9.8 и в официальном старпаке под Windows версии 0.9.9.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This problem exists in the official Windows [[Tkabber Distros#Counter|Tkabber Pack]] 0.9.8 and in the official Windows Starpack 0.9.9.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Решение:'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Solution:'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Достаточно пойти в настройки плагина '''AutoAway''' '''(Tkabber &amp;rarr; Настройки &amp;rarr; AutoAway)''' и установить там параметры &lt;tt&gt;plugins::autoaway::options(awaytime)&lt;/tt&gt; и &lt;tt&gt;plugins::autoaway::options(xatime)&lt;/tt&gt; в некоторое разумное количество &lt;em&gt;минут.&lt;/em&gt;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Go to '''Tkabber &amp;rarr; Customize &amp;rarr; AutoAway''' and set up the parameters &lt;tt&gt;plugins::autoaway::options(awaytime)&lt;/tt&gt; and &lt;tt&gt;plugins::autoaway::options(xatime)&lt;/tt&gt; to some reasonable amounts of &lt;em&gt;minutes.&lt;/em&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не забудьте сохранить &lt;em&gt;каждую&lt;/em&gt; настройку &quot;для текущей и следующих сессий&quot;, выбрав соответствующий пункт в меню, вызываемом кнопками &quot;Состояние&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Don't forget to save &lt;em&gt;every&lt;/em&gt; setting &quot;for current and future sessions&quot;, choosing the corresponding menu item you get pressing the &quot;State button&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Обратите внимание''' на то, что под Windows автоэвей несколько глюковат (по-видимому, из-за глюков расширения '''tclWinidle''').</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Note''' that under Windows autoaway is a bit crappy (probably, due to the '''tclWinidle''' extension bugs).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Это выражается в том, что при некоторых (так пока и не зафиксированных) условиях Ткаббер ни с того ни с сего переводит вас в состояние &quot;extended away&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Sometimes Tkabber goes to &quot;extended away&quot; without any obvious reason.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если это произошло, вам придётся рестартовать Ткаббер или, если вы готовы пожертвовать работой автоэвея в течение данного сеанса работы, поставьте оба тайм-аута в 0 и сохраните обе настройки &lt;em&gt;&quot;для текущей сессии&quot;,&lt;/em&gt; после чего выберите вручную нужное вам состояние доступности.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If it happens, you have to restart it or, if you're ready to sacrifice your autoaway ability in this session, just set both timeouts to 0 and save both settings &lt;em&gt;&quot;for current session&quot;,&lt;/em&gt; and then choose the desired status manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Кардинальным способом борьбы с этим багом является установка Tcl/Tk 8.5, который имеет встроенные средства для отслеживания неактивности пользователя, и Ткаббер (начиная с версии 0.10.0) использует эти средства.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This bug can be fixed by installing Tcl/Tk 8.5 which has integrated tools to check user's inactivity, and Tkabber (beginning with the version 0.10.0) uses these tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Расширение '''tclWinidle''' (как и '''tkXwin''' под X Window) становится при этом ненужным.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The extension '''tclWinidle''' (as well as '''tkXwin''' under X Window) becomes unnecessary and you can uninstall it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ещё один кардинальный способ описан [[Tkinactive|тут]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Another radical way of fixing this bug is described [[Tkinactive|here]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Не могу приконнектиться к серверу через прокси (аська работает).'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I cannot connect to a jabber-server via proxy (ICQ works fine).'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Вариантов обычно два:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: There are usually two causes that lead to this:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Кривая настройка прокси-сервера в Ткаббере;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Bad settings of your proxy-server in Tkabber;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Прокси-сервер не пропускает соединения методом CONNECT на порты, отличные от 443 (HTTPS) (туда часто направляют &quot;аську&quot;), а Jabber-сервер обычно принимает соединения на следующие два порта:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* The proxy server denies connections made using HTTP CONNECT to all ports but 443 (HTTPS) (this port is often used by ICQ), and Jabber-server usually listens two following ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>** 5222 &amp;mdash; поддерживается  &quot;plaintext&quot; (соединение без шифрования) и протокол STARTTLS, позволяющий использовать SSL;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>** 5222 &amp;mdash; plaintext connection (without encryption) and STARTTLS protocol that allows using SSL are supported;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>** 5223 &amp;mdash; только SSL.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>** 5223 &amp;mdash; SSL only.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Подробное описание обходных манёвров для решения второй проблемы читайте [[Между офлайном и онлайном#Подключение к XMPP серверу: практика|здесь]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Read more about the second problem solution [[Between Offline And Online#Connection To An XMPP Server: A Practical Guide|in the following article]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Psi и Gajim умеют не разрывать соединение или же пересоединяются к серверу при разрыве связи.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: Psi and Gajim are able to keep the connection or reconnect to a server if it is broken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ткаббер вроде бы этого не делает.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It seems that Tkabber doesn't do that.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В чём проблема?'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Which is the problem?'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Точный ответ на этот вопрос затруднён несколькими обстоятельствами:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: It's difficult to give an exact answer because of some facts:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Разные люди подразумевают разные вещи под понятием &quot;keep alive&quot;;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Different people understand different things by a term &quot;keep alive&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Многие не понимают принципов работы протокола TCP (поверх которого &quot;ездит&quot; XMPP (он же Jabber)) и того, как он обрабатывает &quot;внешние&quot; разрывы соединений.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Many people don't understand how TCP works (which serves as a base of XMPP/Jabber) and how it processes &quot;external&quot; disconnections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>То, что называется &quot;keepalive&quot; в Ткаббере, представляет собой периодическую запись пробела (символа с кодом 0x20) в исходящий XML-поток.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>What is called as &quot;keepalive&quot; in Tkabber is a periodical sending to an outgoing XML stream a &quot;space&quot; character (a character with a code 0x20).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>С точки зрения синтаксиса и семантики XML это никак не влияет на передачу данных, но зато позволяет &lt;em&gt;удерживать прокси-серверы и NATP-устройства от разрыва соединения из-за его неактивности&lt;/em&gt;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In terms of XML syntax and semantics, it doesn't affect data transfer; however, it helps &lt;em&gt;keep proxy-servers and NATP-devices from breaking a connection due to its inactivity&lt;/em&gt;.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

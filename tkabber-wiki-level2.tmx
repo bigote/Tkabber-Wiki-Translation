@@ -2156,5 +2156,454 @@
         <seg>[[Tkabber FAQ/Misc#Invites Seem To Not Work|Go to the answer]].</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>[[en:Tkabber FAQ/Glitches]]</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>[[ru:Ткаббер ЧаВо/Глюки]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>[[Ткаббер ЧаВо]] разделился на несколько статей.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>[[Tkabber FAQ]] was divided into several articles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>В этой статье разбираются глюки и баги, терзающие Ткаббер и его пользователей.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>This article is dedicated to bugs that trouble Tkabber and its users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Для удобства даны ссылки на другие тематические страницы ЧаВо.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>For more comfortable navigation there are links to other thematic FAQ pages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Вопрос: Ткаббер жутко долго грузится.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Question: It takes Tkabber several minutes to start up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Поначалу я даже думал, что он виснет на старте, но как-то раз набрался тепрения и дождался.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>First I even thought that it hangs up when starting but one day I possessed my soul in patience and got Tkabber loaded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Потом работает нормально.'''</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Once it's loaded it works fine.'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Ответ: Посмотрите внимательно, что при этом показывает прогресс-бар сплэш-скрина.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Answer: Look at the progress-bar of Tkabber splash-screen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Если на нём застыли слова &quot;пользовательский интерфейс&quot;, то возможно, дело вот в чём.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>If the words &quot;user interface&quot; are frozen there, then maybe we know what happens.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Если у вас включено кэширование новостей, а самих новостных фидов в ростере &amp;mdash; вагон и маленькая тележка, то через некоторое время общее число сообщений может с лёгкостью перевалить за несколько сотен.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>If you have headlines caching enabled and have a lot of RSS feeds in the roster, especially some daily renewed ones, the total quantity of messages in the headlines tab can easily grow up to several hundreds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Естественно, чтобы все их подгрузить из файла, требуется время.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Of course, to load all of them from a file takes some time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Решений несколько:</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>There are several solutions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg># отключить кэширование, тогда при закрытии программы новости, которые вы не успели прочитать, пропадут;</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg># disable caching, then headlines you haven't read will be lost after closing Tkabber;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg># избавиться от лишних очень активных фидов или хотя бы просматривать и удалять вручную большие списки новостей перед закрытием программы;</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg># get rid of unnecessary very active feeds or at least look through and clean big headline lists before closing the program;
+# consider installing some RSS-reader program: usually they work fast and have more RSS-specific features than Tkabber; if you use one, move the most annoying feeds there;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg># смириться с долгой загрузкой или перегружаться как можно реже;</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg># put up with a long startup and restart Tkabber seldom;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg># проапгрейдить компьютер;</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg># upgrade your hardware;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg># оптимизировать код.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg># optimize the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Выбирать вам :)</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>It's all up to you :)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Вопрос: Нажимаю &quot;Подключиться&quot; в окне логина и Ткаббер &quot;подвисает&quot;; соединение с сервером не происходит (или происходит, но после указанной паузы).</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Question: I press the {{button|Log in}} button in the Login window and Tkabber &quot;hangs up&quot;: it either cannot connect to a server at all, or connects after a long pause.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Что делать?'''</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>What can I do?'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Ответ: Если исключить очень плохое качество связи, которое бывает, например, на GPRS-линках, причин обычно две, и обе они коренятся в том, что Ткаббер в ходе соединения с сервером выполняет запросы к [http://en.wikipedia.org/wiki/DNS DNS].</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Answer: In addition to a low quality connection (GPRS in Russia, for example), there are two main causes of this. Both of them arise from the fact that Tkabber makes [http://en.wikipedia.org/wiki/DNS DNS-requests] while connecting to a jabber-server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>[[Ткаббер и DNS|Эта статья]] подробно описывает возможные проблемы с DNS в Ткаббере и методы их решения.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>[[Tkabber and DNS|This article]] gives a broad description of problems with DNS in Tkabber and helps with shooting these troubles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Вопрос: Так работает в Ткаббере пересылка файлов или нет?</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Question: So does file transfer work or not in Tkabber?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Мы с другом пробовали сто раз через все доступные протоколы, и ничего не шлётся.'''</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>My friends and I have tried all options in different ways but nothing helps.'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Ответ: Для начала почитайте '''[[Пересылка файлов: теория|введение]],''' также в сжатой форме это объяснено в официальной документации Ткаббера (разделы 4.2.12.&amp;nbsp;The Stream Initiation Module и 4.2.13.&amp;nbsp;The Jidlink Module):</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Answer: First of all read [[File Transfer: Theory|some theory]]. It's also explained shortly in the official Tkabber documentation (chapters 4.2.12.&amp;nbsp;The Stream Initiation Module and 4.2.13.&amp;nbsp;The Jidlink Module):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Практическая же реализация (для большинства, но &lt;em&gt;не всех&lt;/em&gt; случаев) такова.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Applying the theory one can do the following (these settings are appropriate for most, but &lt;em&gt;not all&lt;/em&gt; cases):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Зайдите в '''Настройки &amp;rarr; File Transfer''' и затем по очереди в '''Jidlink''' и '''SI'''.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Go to '''Tkabber &amp;rarr; Customize &amp;rarr; File Transfer''' and then visit '''Jidlink''' and '''SI'''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>В Jidlink включите опцию</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>In Jidlink enable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>и отключите</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>and disable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>оставив '''::jidlink::transport(allowed,dtcp-active)''' и '''::jidlink::transport(allowed,inband-bytestream)'''.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>leaving as is '''::jidlink::transport(allowed,dtcp-active)''' and '''::jidlink::transport(allowed,inband-bytestream)'''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>В SI отключите</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>In SI disable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>и оставьте</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>and leave</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Не забудьте сохранить каждую изменяемую опцию для следующих сессий.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Do not forget to save every changed option for current and future sessions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Если всё равно не работает, перечитайте ещё раз теорию (ссылка в начале ответа).</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>If file transfer still doesn't work, read the article about it once more.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Вопрос: Запускаю Ткаббер и он тут же переходит в состояние &quot;отошёл&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Question: I start Tkabber and it instantly goes &quot;away&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Установка руками любого другого статуса тут же обратно меняется Ткаббером на всё тот же &quot;отошёл&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>When I put some other status manually, Tkabber instantly changes it to &quot;away&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Ответ: Причина проста &amp;mdash; начиная с версии 0.9.8 в настройках Ткаббера поменялся формат времени, задаваемого для запуска Autoaway.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>В версиях Ткаббера до 0.9.7 включительно время неактивности пользователя до перехода в состояния &quot;отошёл&quot; и &quot;отошёл давно&quot; задавалось в миллисекундах (стандартная единица измерения временных промежутков для тикля).</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to &quot;away&quot; and &quot;extended away&quot; status (ms is a standard Tcl &quot;time quant&quot;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Начиная с версии 0.9.8 эти интервалы начали задаваться в более логичных единицах измерения &amp;mdash; минутах.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>То есть &quot;новые&quot; версии Ткаббера умножают эти временные интервалы на 60000, чтобы перевести минуты в &quot;тиклевые&quot; миллисекунды.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Если происходит неприятность &amp;mdash; Ткаббер версии &gt;= 0.9.8 запускается с файлом конфигурации от версии &lt;= 0.9.7, &amp;mdash; заданные в конфигурации миллисекунды переводятся... в миллисекунды!</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>If you start Tkabber &gt;= 0.9.8 with an old config &lt;= 0.9.7, then milliseconds are converted to... milliseconds!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Получаются огромные числа, переполняющие 32-битное целое со знаком, и Ткаббер начинает считать, что получившийся интервал времени истёк.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Иллюстрация (можете повторить сами в консоли Ткаббера, wish или в tkcon):</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>То есть, при тайм-ауте в одну минуту всё бы было хорошо, но как только мы ставим две минуты, появляется ошибка.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>1 minute timeout would be Ok but as soon as we put 2 minutes we get the error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Модуль Autoaway сравнивает текущее время неактивности со значением тайм-аута, и если тайм-аут меньше, Ткаббер переводится в режим &quot;Отошёл&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>The Autoaway module compares your current inactivity time to the calculated autoaway value, and if the timeout is less than your inactivity period, Tkabber goes to the &quot;Away&quot; status.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Как видите, при тайм-ауте две минуты и больше Ткаббер всегда будет считать, что мы &quot;отошли&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>As you can see, the timeout of 2 minutes and more will always give negative values that are always less than any inactivity time (even zero).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Такая проблема существует, в частности, в официальном [[Дистрибутивы, которые мы выбираем#Прилавок|Ткаббер-паке]] под Windows версии 0.9.8 и в официальном старпаке под Windows версии 0.9.9.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>This problem exists in the official Windows [[Tkabber Distros#Counter|Tkabber Pack]] 0.9.8 and in the official Windows Starpack 0.9.9.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Решение:'''</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Solution:'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Достаточно пойти в настройки плагина '''AutoAway''' '''(Tkabber &amp;rarr; Настройки &amp;rarr; AutoAway)''' и установить там параметры &lt;tt&gt;plugins::autoaway::options(awaytime)&lt;/tt&gt; и &lt;tt&gt;plugins::autoaway::options(xatime)&lt;/tt&gt; в некоторое разумное количество &lt;em&gt;минут.&lt;/em&gt;</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Go to '''Tkabber &amp;rarr; Customize &amp;rarr; AutoAway''' and set up the parameters &lt;tt&gt;plugins::autoaway::options(awaytime)&lt;/tt&gt; and &lt;tt&gt;plugins::autoaway::options(xatime)&lt;/tt&gt; to some reasonable amounts of &lt;em&gt;minutes.&lt;/em&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Не забудьте сохранить &lt;em&gt;каждую&lt;/em&gt; настройку &quot;для текущей и следующих сессий&quot;, выбрав соответствующий пункт в меню, вызываемом кнопками &quot;Состояние&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Don't forget to save &lt;em&gt;every&lt;/em&gt; setting &quot;for current and future sessions&quot;, choosing the corresponding menu item you get pressing the &quot;State button&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>'''Обратите внимание''' на то, что под Windows автоэвей несколько глюковат (по-видимому, из-за глюков расширения '''tclWinidle''').</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>'''Note''' that under Windows autoaway is a bit crappy (probably, due to the '''tclWinidle''' extension bugs).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Это выражается в том, что при некоторых (так пока и не зафиксированных) условиях Ткаббер ни с того ни с сего переводит вас в состояние &quot;extended away&quot;.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Sometimes Tkabber goes to &quot;extended away&quot; without any obvious reason.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Если это произошло, вам придётся рестартовать Ткаббер или, если вы готовы пожертвовать работой автоэвея в течение данного сеанса работы, поставьте оба тайм-аута в 0 и сохраните обе настройки &lt;em&gt;&quot;для текущей сессии&quot;,&lt;/em&gt; после чего выберите вручную нужное вам состояние доступности.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>If it happens, you have to restart it or, if you're ready to sacrifice your autoaway ability in this session, just set both timeouts to 0 and save both settings &lt;em&gt;&quot;for current session&quot;,&lt;/em&gt; and then choose the desired status manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Кардинальным способом борьбы с этим багом является установка Tcl/Tk 8.5, который имеет встроенные средства для отслеживания неактивности пользователя, и Ткаббер (начиная с версии 0.10.0) использует эти средства.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>This bug can be fixed by installing Tcl/Tk 8.5 which has integrated tools to check user's inactivity, and Tkabber (beginning with the version 0.10.0) uses these tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Расширение '''tclWinidle''' (как и '''tkXwin''' под X Window) становится при этом ненужным.</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>The extension '''tclWinidle''' (as well as '''tkXwin''' under X Window) becomes unnecessary and you can uninstall it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="RU">
+        <seg>Ещё один кардинальный способ описан [[Tkinactive|тут]].</seg>
+      </tuv>
+      <tuv xml:lang="EN-US">
+        <seg>Another radical way of fixing this bug is described [[Tkinactive|here]].</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
