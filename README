@@ -1,0 +1,5 @@
+This progect is intended to help myself and other translators (if any) to translate Tkabber Wiki (http://tkabber.jabe.ru) into different languages. The wiki is written in Russian, so the first task is to translate it into English. I use for this purpose an open source CAT tool named OmegaT. You can find it here: http://omegat.org
+
+This repository organization is quite simple: there is a subdirectory for each language pair. So, when somebody is going to create a Spanish version he or she should create a subdirectory en_es where a new OmegaT project will be placed.
+
+If you plan to use some other CAT tool for translation please keep in mind that 
