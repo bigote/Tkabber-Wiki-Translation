@@ -2244,5 +2244,262 @@
         <seg>Of course, to load all of them from a file takes some time.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Решений несколько:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>There are several solutions:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg># отключить кэширование, тогда при закрытии программы новости, которые вы не успели прочитать, пропадут;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg># disable caching, then headlines you haven't read will be lost after closing Tkabber;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg># избавиться от лишних очень активных фидов или хотя бы просматривать и удалять вручную большие списки новостей перед закрытием программы;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg># get rid of unnecessary very active feeds or at least look through and clean big headline lists before closing the program;
+# consider installing some RSS-reader program: usually they work fast and have more RSS-specific features than Tkabber; if you use one, move the most annoying feeds there;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg># смириться с долгой загрузкой или перегружаться как можно реже;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg># put up with a long startup and restart Tkabber seldom;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg># проапгрейдить компьютер;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg># upgrade your hardware;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg># оптимизировать код.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg># optimize the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Выбирать вам :)</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It's all up to you :)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Нажимаю &quot;Подключиться&quot; в окне логина и Ткаббер &quot;подвисает&quot;; соединение с сервером не происходит (или происходит, но после указанной паузы).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I press the {{button|Log in}} button in the Login window and Tkabber &quot;hangs up&quot;: it either cannot connect to a server at all, or connects after a long pause.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Что делать?'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>What can I do?'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Если исключить очень плохое качество связи, которое бывает, например, на GPRS-линках, причин обычно две, и обе они коренятся в том, что Ткаббер в ходе соединения с сервером выполняет запросы к [http://en.wikipedia.org/wiki/DNS DNS].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: In addition to a low quality connection (GPRS in Russia, for example), there are two main causes of this. Both of them arise from the fact that Tkabber makes [http://en.wikipedia.org/wiki/DNS DNS-requests] while connecting to a jabber-server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер и DNS|Эта статья]] подробно описывает возможные проблемы с DNS в Ткаббере и методы их решения.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber and DNS|This article]] gives a broad description of problems with DNS in Tkabber and helps with shooting these troubles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Так работает в Ткаббере пересылка файлов или нет?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: So does file transfer work or not in Tkabber?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Мы с другом пробовали сто раз через все доступные протоколы, и ничего не шлётся.'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>My friends and I have tried all options in different ways but nothing helps.'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Для начала почитайте '''[[Пересылка файлов: теория|введение]],''' также в сжатой форме это объяснено в официальной документации Ткаббера (разделы 4.2.12.&amp;nbsp;The Stream Initiation Module и 4.2.13.&amp;nbsp;The Jidlink Module):</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: First of all read [[File Transfer: Theory|some theory]]. It's also explained shortly in the official Tkabber documentation (chapters 4.2.12.&amp;nbsp;The Stream Initiation Module and 4.2.13.&amp;nbsp;The Jidlink Module):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Практическая же реализация (для большинства, но &lt;em&gt;не всех&lt;/em&gt; случаев) такова.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Applying the theory one can do the following (these settings are appropriate for most, but &lt;em&gt;not all&lt;/em&gt; cases):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Зайдите в '''Настройки &amp;rarr; File Transfer''' и затем по очереди в '''Jidlink''' и '''SI'''.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Go to '''Tkabber &amp;rarr; Customize &amp;rarr; File Transfer''' and then visit '''Jidlink''' and '''SI'''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В Jidlink включите опцию</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In Jidlink enable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>и отключите</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>and disable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>оставив '''::jidlink::transport(allowed,dtcp-active)''' и '''::jidlink::transport(allowed,inband-bytestream)'''.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>leaving as is '''::jidlink::transport(allowed,dtcp-active)''' and '''::jidlink::transport(allowed,inband-bytestream)'''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В SI отключите</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In SI disable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>и оставьте</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>and leave</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не забудьте сохранить каждую изменяемую опцию для следующих сессий.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Do not forget to save every changed option for current and future sessions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если всё равно не работает, перечитайте ещё раз теорию (ссылка в начале ответа).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If file transfer still doesn't work, read the article about it once more.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Запускаю Ткаббер и он тут же переходит в состояние &quot;отошёл&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I start Tkabber and it instantly goes &quot;away&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Установка руками любого другого статуса тут же обратно меняется Ткаббером на всё тот же &quot;отошёл&quot;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>When I put some other status manually, Tkabber instantly changes it to &quot;away&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Причина проста &amp;mdash; начиная с версии 0.9.8 в настройках Ткаббера поменялся формат времени, задаваемого для запуска Autoaway.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В версиях Ткаббера до 0.9.7 включительно время неактивности пользователя до перехода в состояния &quot;отошёл&quot; и &quot;отошёл давно&quot; задавалось в миллисекундах (стандартная единица измерения временных промежутков для тикля).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to &quot;away&quot; and &quot;extended away&quot; status (ms is a standard Tcl &quot;time quant&quot;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Начиная с версии 0.9.8 эти интервалы начали задаваться в более логичных единицах измерения &amp;mdash; минутах.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>То есть &quot;новые&quot; версии Ткаббера умножают эти временные интервалы на 60000, чтобы перевести минуты в &quot;тиклевые&quot; миллисекунды.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если происходит неприятность &amp;mdash; Ткаббер версии &gt;= 0.9.8 запускается с файлом конфигурации от версии &lt;= 0.9.7, &amp;mdash; заданные в конфигурации миллисекунды переводятся... в миллисекунды!</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you start Tkabber &gt;= 0.9.8 with an old config &lt;= 0.9.7, then milliseconds are converted to... milliseconds!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Получаются огромные числа, переполняющие 32-битное целое со знаком, и Ткаббер начинает считать, что получившийся интервал времени истёк.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Иллюстрация (можете повторить сами в консоли Ткаббера, wish или в tkcon):</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
