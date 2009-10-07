@@ -8,8 +8,15 @@ If you are going to translate from English to other language you can skip the ne
 
 Unfortunately, the import feature described above doesn't help when you try to import pages that have Cyrillic names. You get a new file called "SomeCyrillicName.utf8" in the source directory but it's empty and it doesn't appear in the file list. This means you have to do the work manually.
 
-
 1) Create a new text file in the source directory. Its name should be written in Latin characters, the extension should be .utf8 and its encoding, obviously, shoud be utf-8.
 2) Open in your browser a Tkabber Wiki article you would like to translate and click Edit link in the top part of it.
 3) Copy the whole text that contains all MediaWiki formatting and paste it into the file you've created earlier.
-4) Save the file and open the project using OmegaT
+4) Save the file and open the project using OmegaT.
+
+However, before you start you will need to check some settings. First of all, go to Options -> File filters dialog, select "Text files" and make sure that in Options there is End Of Line selected as a segmentation rule. Then take a look at Edit. You should have there a filter for utf8. If you don't have it you should create it. It's easy: click Add button and just specify its wildcart (*.utf8), source and destination encodings (UTF-8) and leave the last field as is. This will help OmegaT understand .utf8 files.
+
+The process of Tkabber Wiki translation is described on its Help page that can be found here: http://en.tkabber.jabe.ru/index.php/Help:Contents Please refer to it for further reading.
+
+It's always a good idea to do backups often. 
+
+Should you have any other questions please don't hesitate and ask me via Jabber either directly <xmpp:bigote@jabber.ru> or entering conferences <xmpp:tkabber-wiki@conference.jabber.ru> or <xmpp:translate@conference.jabber.ru>. If you have questions regarding Tkabber itself feel free ask them here: <xmpp:tkabber@conference.jabber.ru>.
