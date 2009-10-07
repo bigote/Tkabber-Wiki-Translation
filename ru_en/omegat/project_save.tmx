@@ -2885,5 +2885,21 @@
         <seg>The problem is explained below and here is given the only way to arrange it: delete the bookmark (via its context menu) &amp;mdash; it will delete both the bookmark and a corresponding roster element, after that just add a needed conference once more &amp;mdash; via chat menu or main menu: '''Services &amp;rarr; Add conference to the roster...'''.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Подробное описание проблемы:''' Хотя Ткаббер и показывает закладки на конференции в ростере (что удобно для пользователя), &lt;em&gt;физически закладки не находятся в списке контактов пользователя&lt;/em&gt; &amp;mdash; они хранятся в особом &quot;приватном хранилище&quot; (см.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Detailed problem explanation:''' Although Tkabber shows bookmarks in the roster (which is handy for a user) &lt;em&gt;physically they aren't in the roster&lt;/em&gt;, they are stored in a special &quot;private deposit&quot; (take a look at</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[http://www.xmpp.org/extensions/attic/xep-0048-1.0.html XEP-0048 (historical)] и [http://www.xmpp.org/extensions/xep-0049.html XEP-0049]).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[http://www.xmpp.org/extensions/attic/xep-0048-1.0.html XEP-0048 (historical)] and [http://www.xmpp.org/extensions/xep-0049.html XEP-0049]).</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
