@@ -2725,5 +2725,29 @@
         <seg>In terms of XML syntax and semantics, it doesn't affect data transfer; however, it helps &lt;em&gt;keep proxy-servers and NATP-devices from breaking a connection due to its inactivity&lt;/em&gt;.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Про настройку этого keepalive читайте в официальной документации.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Please refer to the official Tkabber docs about configuring this &quot;keepalive&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&quot;Системный keepalive&quot; &amp;mdash; на уровне TCP-сокетов &amp;mdash; напрямую в Ткаббере не поддерживается (и не будет в обозримом будущем из-за ограничений поддержки TCP-сокетов в тикле), однако, недавно появилась &lt;em&gt;тестовая&lt;/em&gt; версия [[Плагины#so_keepalive|плагина, добавляющего такую поддержку]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Tkabber doesn't support directly so-called &quot;system keepalive&quot; on TCP-sockets level, (and it won't support it in a proximate future due to limitations of TCP-sockets support in Tcl); however, there is &lt;em&gt;a test&lt;/em&gt; version of [[Plugins#so_keepalive|a plugin that adds such support]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Требуется серьёзное &lt;em&gt;целенаправленное&lt;/em&gt; тестирование этого плагина на различных платформах.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This plugin needs to be seriously and &lt;em&gt;purposefully&lt;/em&gt; tested on different platforms.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
