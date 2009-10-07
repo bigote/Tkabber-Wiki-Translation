@@ -110,11 +110,11 @@ You can read about system configuration [http://chatlogs.jabber.ru/tkabber@confe
 
 === What's Up With The Whiteboard? ===
 
-'''Вопрос: Открыл в конфе грифельную доску, теперь не могу её прикончить, она при каждом входе появляется.'''
+'''Question: I opened whiteboard in my room and now I can't get rid of it, it keeps appearing every time I enter it, and it annoys everybody else!'''
 
-Ответ: Всё правильно. "Сообщения" доски выводятся как часть истории разговора в конференции. Вывод: чтобы избавиться от неё, надо затереть историю другими сообщениями, то есть банально поразговаривать. И наоборот, если вам нужно быстро затереть историю малопосещаемой комнаты, где история естественным путём обновляется редко, а тут зашёл спамер или хулиган и наспамил или наматерился, то можно открыть доску и нарисовать чего-нибудь, чтобы нежелательный текст ушёл в туман. Естественно, теперь начнёт доставать доска, но её мы убивать уже умеем ;) Количественные параметры для затирания того и другого предлагается определить самостоятельно.
+Answer: It's correct. Whiteboard "messages" are part of conference history so they appear if you have configured the client to show history when entering a room. To git rid of them you need to get rid of old history, i.e. to speak a little bit. On the contrary, if you need to erase history of some room where there are very few visitors and it refreshes too slowly (for instance, you need to get rid of spam messages left by some idiot), you can open the whiteboard and draw something so that unwanted text disappeared from the history. Of course, now we get annoying whiteboard but we already know what to do ;) It's your task now to determine how many squares and circles are required to erase spam and how many greetings are required to erase polygons.
 
-=== Tkabber Seems Not To See SSL Certificate To Connect To Server ===
+=== Tkabber Can't See A SSL-Certificate Of My Jabber Server ===
 
 '''Вопрос: Указываю путь до каталога с сертификатами, среди которых есть сертификат для коннекта с серверу, но Ткаббер не видит нужный сертификат (например, ругаясь на то, что сертификат сервера самоподписан или имеет в цепочке доверенных сертификатов самоподписанный сертификат).'''
 

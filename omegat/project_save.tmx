@@ -921,7 +921,7 @@
         <seg>=== Ткаббер в упор не видит SSL-сертификат для коннекта к серверу ===</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>=== Tkabber Seems Not To See SSL Certificate To Connect To Server ===</seg>
+        <seg>=== Tkabber Can't See A SSL-Certificate Of My Jabber Server ===</seg>
       </tuv>
     </tu>
     <tu>
@@ -929,7 +929,7 @@
         <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер в упор не видит SSL-сертификат для коннекта к серверу|Перейти к ответу]].</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>[[Tkabber FAQ/Glitches#Tkabber Seems Not To See SSL Certificate To Connect To Server|Go to the answer]].</seg>
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Can't See A SSL-Certificate Of My Jabber Server|Go to the answer]].</seg>
       </tuv>
     </tu>
     <tu>
@@ -2795,6 +2795,54 @@
       </tuv>
       <tuv lang="EN-US">
         <seg>{{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Открыл в конфе грифельную доску, теперь не могу её прикончить, она при каждом входе появляется.'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I opened whiteboard in my room and now I can't get rid of it, it keeps appearing every time I enter it, and it annoys everybody else!'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Всё правильно.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: It's correct.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&quot;Сообщения&quot; доски выводятся как часть истории разговора в конференции.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Whiteboard &quot;messages&quot; are part of conference history so they appear if you have configured the client to show history when entering a room.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Вывод: чтобы избавиться от неё, надо затереть историю другими сообщениями, то есть банально поразговаривать.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>To git rid of them you need to get rid of old history, i.e. to speak a little bit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>И наоборот, если вам нужно быстро затереть историю малопосещаемой комнаты, где история естественным путём обновляется редко, а тут зашёл спамер или хулиган и наспамил или наматерился, то можно открыть доску и нарисовать чего-нибудь, чтобы нежелательный текст ушёл в туман.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>On the contrary, if you need to erase history of some room where there are very few visitors and it refreshes too slowly (for instance, you need to get rid of spam messages left by some idiot), you can open the whiteboard and draw something so that unwanted text disappeared from the history.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Естественно, теперь начнёт доставать доска, но её мы убивать уже умеем ;) Количественные параметры для затирания того и другого предлагается определить самостоятельно.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Of course, now we get annoying whiteboard but we already know what to do ;) It's your task now to determine how many squares and circles are required to erase spam and how many greetings are required to erase polygons.</seg>
       </tuv>
     </tu>
   </body>

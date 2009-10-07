@@ -6,24 +6,24 @@ Total:
 	Caracteres (sin espacios)	45362
 	Caracteres (con espacios)	51346
 Únicos pendientes:
-	Segmentos	330
-	Palabras	3342
-	Caracteres (sin espacios)	20915
-	Caracteres (con espacios)	23629
+	Segmentos	324
+	Palabras	3240
+	Caracteres (sin espacios)	20265
+	Caracteres (con espacios)	22882
 Únicos:
 	Segmentos	645
 	Palabras	6827
 	Caracteres (sin espacios)	43263
 	Caracteres (con espacios)	48932
 Únicos pendientes:
-	Segmentos	297
-	Palabras	3288
-	Caracteres (sin espacios)	20461
-	Caracteres (con espacios)	23129
+	Segmentos	291
+	Palabras	3186
+	Caracteres (sin espacios)	19811
+	Caracteres (con espacios)	22382
 
 Estadísticas por archivo:
 
 Nombre de archivo	Palabras en total	Palabras pendientes	Caracteres en total (sin espacios)	Caracteres pendientes (sin espacios)	Caracteres en total (con espacios)	Caracteres pendientes (con espacios)
 Tkabber_FAQ.utf8	1747	10	11100	132	12510	139
-Tkabber_FAQ_Glitches.utf8	4614	3225	28958	20074	32824	22665
+Tkabber_FAQ_Glitches.utf8	4614	3123	28958	19424	32824	21918
 ru.tkabber.jabe.ru.UTF8	776	107	5304	709	6012	825
