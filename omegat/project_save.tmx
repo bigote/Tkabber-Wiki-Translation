@@ -2749,5 +2749,53 @@
         <seg>This plugin needs to be seriously and &lt;em&gt;purposefully&lt;/em&gt; tested on different platforms.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Другими словами, не думайте, что, установив этот плагин, вы разом решите все проблемы с печально известной неспособностью Ткаббера обнаруживать разорвавшиеся соединения, так как:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In other words, don't think that after installing this plugin all the problems with infamous inability of Tkabber to detect broken connections will be resolved automatically, since:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Требуется настройка системы для того, чтобы &quot;keepalive на сокетах&quot; делал то, что Вам от него нужно;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* You'll need to configure your system so that &quot;keepalive on sockets&quot; would do what You want.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Реакция Ткаббера на разрыв соединения вследствие срабатывания соответствующего механизма keepalive неизвестна.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* It is unknown how Tkabber would behave after triggering of some keepalive mechanism and consequent connection break.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>{{todo|расписать подробно про системный keepalive?}}</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>{{todo|explain in more details about system keepalive?}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>По поводу настройки системы почитайте [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 вот этот трёп] между [[Участник:Kostix|Kostix]] и j-dreamer, а также README в плагине.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>You can read about system configuration [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 this conversation] (in Russian) between [[User:Kostix|Kostix]] and j-dreamer, and also the plugin's README file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>{{todo|вынести этот чатлог в отдельную страницу, облагородив, т.е. он со временем отэкспайрится и будет удалён на сервере}}</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>{{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

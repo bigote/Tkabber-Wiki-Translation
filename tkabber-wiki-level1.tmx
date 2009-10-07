@@ -2605,5 +2605,197 @@
         <seg>Another radical way of fixing this bug is described [[Tkinactive|here]].</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Не могу приконнектиться к серверу через прокси (аська работает).'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I cannot connect to a jabber-server via proxy (ICQ works fine).'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Вариантов обычно два:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: There are usually two causes that lead to this:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Кривая настройка прокси-сервера в Ткаббере;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Bad settings of your proxy-server in Tkabber;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Прокси-сервер не пропускает соединения методом CONNECT на порты, отличные от 443 (HTTPS) (туда часто направляют &quot;аську&quot;), а Jabber-сервер обычно принимает соединения на следующие два порта:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* The proxy server denies connections made using HTTP CONNECT to all ports but 443 (HTTPS) (this port is often used by ICQ), and Jabber-server usually listens two following ports:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>** 5222 &amp;mdash; поддерживается  &quot;plaintext&quot; (соединение без шифрования) и протокол STARTTLS, позволяющий использовать SSL;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>** 5222 &amp;mdash; plaintext connection (without encryption) and STARTTLS protocol that allows using SSL are supported;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>** 5223 &amp;mdash; только SSL.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>** 5223 &amp;mdash; SSL only.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Подробное описание обходных манёвров для решения второй проблемы читайте [[Между офлайном и онлайном#Подключение к XMPP серверу: практика|здесь]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Read more about the second problem solution [[Between Offline And Online#Connection To An XMPP Server: A Practical Guide|in the following article]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Psi и Gajim умеют не разрывать соединение или же пересоединяются к серверу при разрыве связи.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: Psi and Gajim are able to keep the connection or reconnect to a server if it is broken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ткаббер вроде бы этого не делает.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It seems that Tkabber doesn't do that.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В чём проблема?'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Which is the problem?'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Точный ответ на этот вопрос затруднён несколькими обстоятельствами:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: It's difficult to give an exact answer because of some facts:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Разные люди подразумевают разные вещи под понятием &quot;keep alive&quot;;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Different people understand different things by a term &quot;keep alive&quot;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Многие не понимают принципов работы протокола TCP (поверх которого &quot;ездит&quot; XMPP (он же Jabber)) и того, как он обрабатывает &quot;внешние&quot; разрывы соединений.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* Many people don't understand how TCP works (which serves as a base of XMPP/Jabber) and how it processes &quot;external&quot; disconnections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>То, что называется &quot;keepalive&quot; в Ткаббере, представляет собой периодическую запись пробела (символа с кодом 0x20) в исходящий XML-поток.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>What is called as &quot;keepalive&quot; in Tkabber is a periodical sending to an outgoing XML stream a &quot;space&quot; character (a character with a code 0x20).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>С точки зрения синтаксиса и семантики XML это никак не влияет на передачу данных, но зато позволяет &lt;em&gt;удерживать прокси-серверы и NATP-устройства от разрыва соединения из-за его неактивности&lt;/em&gt;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In terms of XML syntax and semantics, it doesn't affect data transfer; however, it helps &lt;em&gt;keep proxy-servers and NATP-devices from breaking a connection due to its inactivity&lt;/em&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Про настройку этого keepalive читайте в официальной документации.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Please refer to the official Tkabber docs about configuring this &quot;keepalive&quot;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&quot;Системный keepalive&quot; &amp;mdash; на уровне TCP-сокетов &amp;mdash; напрямую в Ткаббере не поддерживается (и не будет в обозримом будущем из-за ограничений поддержки TCP-сокетов в тикле), однако, недавно появилась &lt;em&gt;тестовая&lt;/em&gt; версия [[Плагины#so_keepalive|плагина, добавляющего такую поддержку]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Tkabber doesn't support directly so-called &quot;system keepalive&quot; on TCP-sockets level, (and it won't support it in a proximate future due to limitations of TCP-sockets support in Tcl); however, there is &lt;em&gt;a test&lt;/em&gt; version of [[Plugins#so_keepalive|a plugin that adds such support]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Требуется серьёзное &lt;em&gt;целенаправленное&lt;/em&gt; тестирование этого плагина на различных платформах.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This plugin needs to be seriously and &lt;em&gt;purposefully&lt;/em&gt; tested on different platforms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Другими словами, не думайте, что, установив этот плагин, вы разом решите все проблемы с печально известной неспособностью Ткаббера обнаруживать разорвавшиеся соединения, так как:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In other words, don't think that after installing this plugin all the problems with infamous inability of Tkabber to detect broken connections will be resolved automatically, since:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Требуется настройка системы для того, чтобы &quot;keepalive на сокетах&quot; делал то, что Вам от него нужно;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* You'll need to configure your system so that &quot;keepalive on sockets&quot; would do what You want.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Реакция Ткаббера на разрыв соединения вследствие срабатывания соответствующего механизма keepalive неизвестна.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* It is unknown how Tkabber would behave after triggering of some keepalive mechanism and consequent connection break.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>{{todo|расписать подробно про системный keepalive?}}</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>{{todo|explain in more details about system keepalive?}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>По поводу настройки системы почитайте [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 вот этот трёп] между [[Участник:Kostix|Kostix]] и j-dreamer, а также README в плагине.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>You can read about system configuration [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 this conversation] (in Russian) between [[User:Kostix|Kostix]] and j-dreamer, and also the plugin's README file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>{{todo|вынести этот чатлог в отдельную страницу, облагородив, т.е. он со временем отэкспайрится и будет удалён на сервере}}</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>{{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

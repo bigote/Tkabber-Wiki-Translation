@@ -74,39 +74,39 @@ Another radical way of fixing this bug is described [[Tkinactive|here]].
 
 === I Can't Connect To A Server Via Proxy ===
 
-'''Вопрос: Не могу приконнектиться к серверу через прокси (аська работает).'''
+'''Question: I cannot connect to a jabber-server via proxy (ICQ works fine).'''
 
-Ответ: Вариантов обычно два:
-* Кривая настройка прокси-сервера в Ткаббере;
-* Прокси-сервер не пропускает соединения методом CONNECT на порты, отличные от 443 (HTTPS) (туда часто направляют "аську"), а Jabber-сервер обычно принимает соединения на следующие два порта:
-** 5222 &mdash; поддерживается  "plaintext" (соединение без шифрования) и протокол STARTTLS, позволяющий использовать SSL;
-** 5223 &mdash; только SSL.
+Answer: There are usually two causes that lead to this:
+* Bad settings of your proxy-server in Tkabber;
+* The proxy server denies connections made using HTTP CONNECT to all ports but 443 (HTTPS) (this port is often used by ICQ), and Jabber-server usually listens two following ports:
+** 5222 &mdash; plaintext connection (without encryption) and STARTTLS protocol that allows using SSL are supported;
+** 5223 &mdash; SSL only.
 
-Подробное описание обходных манёвров для решения второй проблемы читайте [[Между офлайном и онлайном#Подключение к XMPP серверу: практика|здесь]].
+Read more about the second problem solution [[Between Offline And Online#Connection To An XMPP Server: A Practical Guide|in the following article]].
 
 === Is "Keep Alive" Possible In Tkabber? ===
 
-'''Вопрос: Psi и Gajim умеют не разрывать соединение или же пересоединяются к серверу при разрыве связи. Ткаббер вроде бы этого не делает. В чём проблема?'''
+'''Question: Psi and Gajim are able to keep the connection or reconnect to a server if it is broken. It seems that Tkabber doesn't do that. Which is the problem?'''
 
-Ответ: Точный ответ на этот вопрос затруднён несколькими обстоятельствами:
-* Разные люди подразумевают разные вещи под понятием "keep alive";
-* Многие не понимают принципов работы протокола TCP (поверх которого "ездит" XMPP (он же Jabber)) и того, как он обрабатывает "внешние" разрывы соединений.
+Answer: It's difficult to give an exact answer because of some facts:
+* Different people understand different things by a term "keep alive";
+* Many people don't understand how TCP works (which serves as a base of XMPP/Jabber) and how it processes "external" disconnections.
 
-То, что называется "keepalive" в Ткаббере, представляет собой периодическую запись пробела (символа с кодом 0x20) в исходящий XML-поток. С точки зрения синтаксиса и семантики XML это никак не влияет на передачу данных, но зато позволяет <em>удерживать прокси-серверы и NATP-устройства от разрыва соединения из-за его неактивности</em>.
+What is called as "keepalive" in Tkabber is a periodical sending to an outgoing XML stream a "space" character (a character with a code 0x20). In terms of XML syntax and semantics, it doesn't affect data transfer; however, it helps <em>keep proxy-servers and NATP-devices from breaking a connection due to its inactivity</em>.
 
-Про настройку этого keepalive читайте в официальной документации.
+Please refer to the official Tkabber docs about configuring this "keepalive".
 
-"Системный keepalive" &mdash; на уровне TCP-сокетов &mdash; напрямую в Ткаббере не поддерживается (и не будет в обозримом будущем из-за ограничений поддержки TCP-сокетов в тикле), однако, недавно появилась <em>тестовая</em> версия [[Плагины#so_keepalive|плагина, добавляющего такую поддержку]].
+Tkabber doesn't support directly so-called "system keepalive" on TCP-sockets level, (and it won't support it in a proximate future due to limitations of TCP-sockets support in Tcl); however, there is <em>a test</em> version of [[Plugins#so_keepalive|a plugin that adds such support]].
 
-Требуется серьёзное <em>целенаправленное</em> тестирование этого плагина на различных платформах. Другими словами, не думайте, что, установив этот плагин, вы разом решите все проблемы с печально известной неспособностью Ткаббера обнаруживать разорвавшиеся соединения, так как:
-* Требуется настройка системы для того, чтобы "keepalive на сокетах" делал то, что Вам от него нужно;
-* Реакция Ткаббера на разрыв соединения вследствие срабатывания соответствующего механизма keepalive неизвестна.
+This plugin needs to be seriously and <em>purposefully</em> tested on different platforms. In other words, don't think that after installing this plugin all the problems with infamous inability of Tkabber to detect broken connections will be resolved automatically, since:
+* You'll need to configure your system so that "keepalive on sockets" would do what You want.
+* It is unknown how Tkabber would behave after triggering of some keepalive mechanism and consequent connection break.
 
-{{todo|расписать подробно про системный keepalive?}}
+{{todo|explain in more details about system keepalive?}}
 
-По поводу настройки системы почитайте [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 вот этот трёп] между [[Участник:Kostix|Kostix]] и j-dreamer, а также README в плагине.
+You can read about system configuration [http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2006/08/09.html#00:43:46 this conversation] (in Russian) between [[User:Kostix|Kostix]] and j-dreamer, and also the plugin's README file.
 
-{{todo|вынести этот чатлог в отдельную страницу, облагородив, т.е. он со временем отэкспайрится и будет удалён на сервере}}
+{{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}
 
 === What Happens To Whiteboard? ===
 
