@@ -2965,13 +2965,5 @@
         <seg>If it reads &quot;Subscription: none&quot; you have got this trouble and have to re-add this conference.</seg>
       </tuv>
     </tu>
-    <tu>
-      <tuv lang="RU">
-        <seg>'''Upd:''' на самом деле наиболее вероятной проблемой выглядит &lt;em&gt;импорт ростера&lt;/em&gt; в Ткаббере &amp;mdash; этот механизм реализован слишком прямолинейно, и, судя по всему, закладки конференций при импорте становятся элементами ростера (контактами).</seg>
-      </tuv>
-      <tuv lang="EN-US">
-        <seg>'''Update:''' Actually the most probable case that could lead to this is &lt;em&gt;roster import&lt;/em&gt; in Tkabber since this mechanism is too straightforward and, by all accounts, conference bookmarks become roster elements (contacts) during import.</seg>
-      </tuv>
-    </tu>
   </body>
 </tmx>
