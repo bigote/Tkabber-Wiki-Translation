@@ -19,7 +19,7 @@ Answer: Look at the progress-bar of Tkabber splash-screen. If the words "user in
 # upgrade your hardware;
 # optimize the code. It's all up to you :)
 
-=== Tkabber "Hangs Up" While Trying To Login To A Server ===
+=== Tkabber "Hangs" While Trying To Login To A Server ===
 
 '''Question: I press the {{button|Log in}} button in the Login window and Tkabber "hangs up": it either cannot connect to a server at all, or connects after a long pause. What can I do?'''
 
@@ -52,7 +52,7 @@ Do not forget to save every changed option for current and future sessions. If f
 
 '''Question: I start Tkabber and it instantly goes "away". When I put some other status manually, Tkabber instantly changes it to "away". What can I do?'''
 
-Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed. In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to "away" and "extended away" status (ms is a standard Tcl "time quant"). Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute. I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds. If you start Tkabber >= 0.9.8 with an old config <= 0.9.7, then milliseconds are converted to... milliseconds! As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over. A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):
+Answer: The cause of this strange behaviour is simple: in the version 0.9.8 of Tkabber the Autoaway time format was changed. In Tkabber 0.9.7 and earlier values in milliseconds were used for automatic switching to "away" and "extended away" status (ms is a standard Tcl "time quant"). Tkabber 0.9.8 was intented to be more user friendly, and the measurement unit of the autoaway timeout was changed to minute. I.e., new versions of Tkabber multiply the user defined value by 60000 to translate it into Tcl-understandable milliseconds. If you start Tkabber >= 0.9.8 with an old config <= 0.9.7, then milliseconds are converted to... milliseconds! As a result, Tkabber gets huge numbers that overflow 32-bit signed integer and thinks that timeout is already over. A little example (you can repeat it in Tkabber console, {{program|wish}} or {{program|tkcon}}):
  % puts [expr 600000*60*1000]
  1640261632
  % puts [expr 600000*120*1000]
@@ -108,7 +108,7 @@ You can read about system configuration [http://chatlogs.jabber.ru/tkabber@confe
 
 {{todo|copy that conversation to a separate wiki article and edit it dropping phrases that have nothing to do with the matter}}
 
-=== What Happens To Whiteboard? ===
+=== What's Up With The Whiteboard? ===
 
 '''Вопрос: Открыл в конфе грифельную доску, теперь не могу её прикончить, она при каждом входе появляется.'''
 

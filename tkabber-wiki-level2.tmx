@@ -825,7 +825,7 @@
         <seg>=== Ткаббер &quot;виснет&quot; при попытке логина на сервер ===</seg>
       </tuv>
       <tuv xml:lang="EN-US">
-        <seg>=== Tkabber &quot;Hangs Up&quot; While Trying To Login To A Server ===</seg>
+        <seg>=== Tkabber &quot;Hangs&quot; While Trying To Login To A Server ===</seg>
       </tuv>
     </tu>
     <tu>
@@ -833,7 +833,7 @@
         <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер &quot;виснет&quot; при попытке логина на сервер|Перейти к ответу]].</seg>
       </tuv>
       <tuv xml:lang="EN-US">
-        <seg>[[Tkabber FAQ/Glitches#Tkabber &quot;Hangs Up&quot; While Trying To Login To A Server|Go to the answer]].</seg>
+        <seg>[[Tkabber FAQ/Glitches#Tkabber &quot;Hangs&quot; While Trying To Login To A Server|Go to the answer]].</seg>
       </tuv>
     </tu>
     <tu>
@@ -905,7 +905,7 @@
         <seg>=== Что с грифельной доской?</seg>
       </tuv>
       <tuv xml:lang="EN-US">
-        <seg>=== What Happens To Whiteboard?</seg>
+        <seg>=== What's Up With The Whiteboard?</seg>
       </tuv>
     </tu>
     <tu>
@@ -913,7 +913,7 @@
         <seg>[[Ткаббер ЧаВо/Глюки#Что с грифельной доской?|Перейти к ответу]].</seg>
       </tuv>
       <tuv xml:lang="EN-US">
-        <seg>[[Tkabber FAQ/Glitches#What Happens To Whiteboard?|Go to the answer]].</seg>
+        <seg>[[Tkabber FAQ/Glitches#What's Up With The Whiteboard?|Go to the answer]].</seg>
       </tuv>
     </tu>
     <tu>
@@ -2498,7 +2498,7 @@
         <seg>Иллюстрация (можете повторить сами в консоли Ткаббера, wish или в tkcon):</seg>
       </tuv>
       <tuv xml:lang="EN-US">
-        <seg>A little example (you can repeat it in Tkabber console, {{programwish}} or {{programtkcon}}):</seg>
+        <seg>A little example (you can repeat it in Tkabber console, {{program|wish}} or {{program|tkcon}}):</seg>
       </tuv>
     </tu>
     <tu>
