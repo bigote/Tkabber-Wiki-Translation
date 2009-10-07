@@ -2965,5 +2965,237 @@
         <seg>If it reads &quot;Subscription: none&quot; you have got this trouble and have to re-add this conference.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: I'm sick and tired of getting a lot of iq-s from some of my contacts that use iChat.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: I'm sick and tired of getting a lot of iq-s from some of my contacts that use iChat.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Please read the following and take your decision about the balls &gt;;-&gt;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: Please read the following and take your decision about the balls &gt;;-&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[08:37]&lt;Торчёк|work&gt; кто виноват?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[08:37]&lt;Торчёк|work&gt; who is to blame?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>ткаббер или ichat маковский?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>tkabber or mac's ichat?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[08:37]&lt;Торчёк|work&gt; реквесты идут постоянно.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[08:37]&lt;Торчёк|work&gt; the requests come constantly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>3-4 раза в секунду</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>3-4 times a second</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[08:54]&lt;Торчёк|work&gt; второй извесный случай с ичатом,</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[08:54]&lt;Торчёк|work&gt; it's the second case with ichat I know,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>в первый раз грят был тоже ткаббер</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>they say the first time it was also tkabber that received this</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:36]&lt;teo&gt; Торчёк|work: виноват ichat (в большей степени).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:36]&lt;teo&gt; Торчёк|work: it's ichat's fault (mostly).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>он не реагирует на то, что ему вернули ошибку.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>it doesn't react to receiving an error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>ну и ткаббер немного</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>there's some tkabber's fault, too</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>(в нем неализована поддержка xep0115 не той версии, что понимает ichat)</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>(it supports a version of xep0115 which is different from what ichat understands)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:37]&lt;Торчёк|work&gt; багропорт ичату уже запостили.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:37]&lt;Торчёк|work&gt; a bugreport to ichat is already sent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>остаётся только ждать</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>let's wait a bit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:39]&lt;teo&gt; ага.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:39]&lt;teo&gt; yeah.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>ждать, пока apple соизволит отреагировать...</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>wait till apple condescends and do something...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:39]&lt;toon&gt; хаха</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:39]&lt;toon&gt; haha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:40]&lt;Торчёк|work&gt; проще доделать в ткаббере</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:40]&lt;Торчёк|work&gt; it's easier to fix it in tkabber</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:41]&lt;teo&gt; надо бы.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:41]&lt;teo&gt; not bad idea.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>доделать и отключить нафиг</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>fix it and disable it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;Торчёк|work&gt; teo: &quot;    уточни у него какая версия реализована в ткаббере,</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;Торчёк|work&gt; teo: &quot;    ask him which version is implemented in tkabber</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>какую нужно реализовать в ichat</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>that should be implemented in ichat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>я отпишу в их форуме</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>I'll write in their forum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>может хоть к следущему пакету исправлений поправят (но сомневаюсь)&quot;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>maybe they fix it to the next update package (although I doubt it)&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;teo&gt; в ткаббере 1.4</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;teo&gt; tkabber has 1.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;teo&gt; надо будет допилить до 1.5</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;teo&gt; it would be nice to do 1.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[14:29]&lt;kostix&gt; я постил сюда кусок кода в конфиг против тупого айчата</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[14:29]&lt;kostix&gt; I published here a piece of code that could defend you from stupid ichat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[14:49]&lt;teo&gt; сегодня закоммичена поддержка капсов 1.5.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[14:49]&lt;teo&gt; I've commited caps support, version 1.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>должно излечить</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>it should help</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

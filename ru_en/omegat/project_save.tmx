@@ -3103,6 +3103,102 @@
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>[09:40]&lt;Торчёк|work&gt; проще доделать в ткаббере</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:40]&lt;Торчёк|work&gt; it's easier to fix it in tkabber</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:41]&lt;teo&gt; надо бы.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:41]&lt;teo&gt; not bad idea.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>доделать и отключить нафиг</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>fix it and disable it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;Торчёк|work&gt; teo: &quot;    уточни у него какая версия реализована в ткаббере,</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;Торчёк|work&gt; teo: &quot;    ask him which version is implemented in tkabber</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>какую нужно реализовать в ichat</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>that should be implemented in ichat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>я отпишу в их форуме</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>I'll write in their forum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>может хоть к следущему пакету исправлений поправят (но сомневаюсь)&quot;</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>maybe they fix it to the next update package (although I doubt it)&quot;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;teo&gt; в ткаббере 1.4</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;teo&gt; tkabber has 1.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[09:42]&lt;teo&gt; надо будет допилить до 1.5</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[09:42]&lt;teo&gt; it would be nice to do 1.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[14:29]&lt;kostix&gt; я постил сюда кусок кода в конфиг против тупого айчата</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[14:29]&lt;kostix&gt; I published here a piece of code that could defend you from stupid ichat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[14:49]&lt;teo&gt; сегодня закоммичена поддержка капсов 1.5.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[14:49]&lt;teo&gt; I've commited caps support, version 1.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>должно излечить</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>it should help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>'''Upd:''' на самом деле наиболее вероятной проблемой выглядит &lt;em&gt;импорт ростера&lt;/em&gt; в Ткаббере &amp;mdash; этот механизм реализован слишком прямолинейно, и, судя по всему, закладки конференций при импорте становятся элементами ростера (контактами).</seg>
       </tuv>
       <tuv lang="EN-US">

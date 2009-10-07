@@ -140,9 +140,9 @@ There are several reasons that could lead to such "camouflage" of a bookmark by 
 
 === Tkabber And iChat ===
 
-'''Вопрос: I'm sick and tired of getting a lot of iq-s from some of my contacts that use iChat. Whose balls should I cut off: Apple or Tkabber developers? What can I do with Tkabber (or iChat) meanwhile?'''
+'''Question: I'm sick and tired of getting a lot of iq-s from some of my contacts that use iChat. Whose balls should I cut off: Apple or Tkabber developers? What can I do with Tkabber (or iChat) meanwhile?'''
 
-Ответ: Please read the following and take your decision about the balls >;->
+Answer: Please read the following and take your decision about the balls >;->
 
  [08:37]<Торчёк|work>
  IN(1,*@jabbus.org/work):
@@ -165,35 +165,33 @@ There are several reasons that could lead to such "camouflage" of a bookmark by 
     <not-allowed xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/>
   </error>
  </iq>
- [08:37]<Торчёк|work> кто виноват? ткаббер или ichat маковский?
- [08:37]<Торчёк|work> реквесты идут постоянно. 3-4 раза в секунду
- [08:54]<Торчёк|work> второй извесный случай с ичатом,
- в первый раз грят был тоже ткаббер
- [09:36]<teo> Торчёк|work: виноват ichat (в большей степени).
- он не реагирует на то, что ему вернули ошибку. ну и ткаббер немного
- (в нем неализована поддержка xep0115 не той версии, что понимает ichat)
- [09:37]<Торчёк|work> багропорт ичату уже запостили. остаётся только ждать
- [09:39]<teo> ага. ждать, пока apple соизволит отреагировать...
- [09:39]<toon> хаха
- [09:40]<Торчёк|work> проще доделать в ткаббере
- [09:41]<teo> надо бы. доделать и отключить нафиг
- [09:42]<Торчёк|work> teo: "    уточни у него какая версия реализована в ткаббере,
- какую нужно реализовать в ichat
-    я отпишу в их форуме
-    может хоть к следущему пакету исправлений поправят (но сомневаюсь)"
- [09:42]<teo> в ткаббере 1.4
- [09:42]<teo> надо будет допилить до 1.5
+ [08:37]<Торчёк|work> who is to blame? tkabber or mac's ichat?
+ [08:37]<Торчёк|work> the requests come constantly. 3-4 times a second
+ [08:54]<Торчёк|work> it's the second case with ichat I know,
+ they say the first time it was also tkabber that received this
+ [09:36]<teo> Торчёк|work: it's ichat's fault (mostly).
+ it doesn't react to receiving an error. there's some tkabber's fault, too
+ (it supports a version of xep0115 which is different from what ichat understands)
+ [09:37]<Торчёк|work> a bugreport to ichat is already sent. let's wait a bit
+ [09:39]<teo> yeah. wait till apple condescends and do something...
+ [09:39]<toon> haha
+ [09:40]<Торчёк|work> it's easier to fix it in tkabber
+ [09:41]<teo> not bad idea. fix it and disable it
+ [09:42]<Торчёк|work> teo: "    ask him which version is implemented in tkabber
+ that should be implemented in ichat
+    I'll write in their forum
+    maybe they fix it to the next update package (although I doubt it)"
+ [09:42]<teo> tkabber has 1.4
+ [09:42]<teo> it would be nice to do 1.5
  [10:40]<bigote> btw, I experienced those endless iChat iq requests, too
  [10:41]<teo> bigote: everyone did
  [10:41]<bigote> they could last hours
  [10:42]<bigote> well, at least I can tell LKnight what happend :)
  [10:43]<teo> bigote: did you explain him where he lost some gigs of traffic? :)
  [10:47]<bigote> he and all his Jabber contacts
- [14:29]<kostix> я постил сюда кусок кода в конфиг против тупого айчата
+ [14:29]<kostix> I published here a piece of code that could defend you from stupid ichat
  [14:30]<kostix> http://chatlogs.jabber.ru/tkabber@conference.jabber.ru/2008/02/06.html#16:56:41
- [14:49]<teo> сегодня закоммичена поддержка капсов 1.5. должно излечить
-
-{{todo|Translate it to Russian}}
+ [14:49]<teo> I've commited caps support, version 1.5. it should help
 
 == Questions Related To Linux ==
 
