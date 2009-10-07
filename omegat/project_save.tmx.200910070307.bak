@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="2.0.2_1"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="RU"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[en:Main Page]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[ru:Заглавная страница]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Добро пожаловать на официальную страницу документации одного из самых продвинутых клиентов протокола [http://jabber.org Jabber (XMPP)] &amp;mdash; [http://tkabber.jabber.ru Tkabber].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Welcome to the official documentation page of one of the advanced [http://jabber.org Jabber (XMPP)] client, [http://tkabber.jabber.ru Tkabber].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Давайте сразу договоримся, что в этом руководстве (по крайней мере в русской версии) писать название программы будем русскими буквами: в конце концов, это отечественный продукт, да и склонять по правилам русского языка проще ;)</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Please note that in Russian and Ukrainian parts of this wiki we write Tkabber in Cyrillic, like this &amp;mdash; Ткаббер. The reason is simple: Tkabber is a Russian program, so at least in Russian we can permit us do this ;) Besides, declensions make the discourse more smooth and fluent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= Содержание =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= Contents =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Для быстрого тематического поиска.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Made for rapid search by topics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Не забудьте, что полный список страниц можно посмотреть [[Служебная:allpages|тут.]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Please don't forget that you can find a full list of pages [[Special:Allpages|here.]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== [[Теория]] ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== [[Theory]] ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Терминология]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Terminology]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Ткаббер - чемпион?|о Ткаббере]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Is Tkabber A Champion?|About Tkabber]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Config.tcl для начинающих]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Config.tcl For Beginners]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Начинающим]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[For Beginners]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Настройка Ткаббера: азы и глубже]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Configuring Tkabber: Basic And More Advanced Steps]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== [[Теория#Продвинутым пользователям|Статьи]] ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== [[Theory#For Advanced Users|Articles]] ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Пересылка файлов: теория]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Sending Files: Theory]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Удалённое управление с помощью send]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Remote Control With &quot;send&quot;]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Шифрование в Ткаббере]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Encryption In Tkabber]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Ткаббер наизнанку]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Tkabber Inside Out]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== [[Разработка]] ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== [[Development]] ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Tkabber_starpack|Старпак своими руками]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Tkabber_starpack|Creating Tkabber Starpack]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Wish и русская раскладка в Windows]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Wish And Russian Layout In Windows]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Спамодавка списками приватности]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Suppressing Spam Using Privacy Lists]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Новый вид Tk в 8.5]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[New Appearance Of Tk In 8.5]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== [[Практика]] ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== [[Practice]] ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Ткаббер ЧаВо]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Tkabber FAQ]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Ш��ифты]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Fonts]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Смайлики и аватары]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Smilies And Avatars]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Цветовые темы и пиктограммы]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Color Schemes And Icons]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Проблемы со звуком]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Troubles With Sound]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Звуковые схемы]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Sound Schemes]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Нетривиальные настройки]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Non-trivial Settings]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Запчасти ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Repair Parts ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Плагины]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Plugins]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Патчи]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Patches]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Обсуждения ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Discussions ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Планы на будущее]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Roadmap]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Плагины/AntiSPIM]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Plugins/AntiSPIM]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* [[Чебуратор]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* [[Configurator]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Cлужебные ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Special Pages ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Служебная:Statistics|Статистика]] :: [[Служебная:Listusers|Участники]] :: [[Служебная:Wantedpages|Требуется]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Special:Statistics|Statistics]] :: [[Special:Wantedpages|Wantedpages]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= Краткое описание некоторых статей =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= A Short Description Of Some Articles =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* В статье '''[[Ткаббер - чемпион?|&quot;О Ткаббере&quot;]]''' мы пытаемся рассказать потенциальному пользователю об основных плюсах и минусах (да-да, они тоже есть ;)) этого клиента.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* In the article '''[[Is Tkabber A Champion?|&quot;About Tkabber&quot;]]''' we are trying to tell to a potential user about main positive and negative (yes, there are some!) sides of this client.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* В разделе '''[[Теория|&quot;Теория&quot;]]''' вашему вниманию предложен ряд статей разного уровня сложности, посвящённых различным аспектам работы с Ткаббером, начиная с &quot;Быстрого старта&quot; и заканчивая попытками простым языком рассказать о довольно-таки сложных вещах.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* In the section '''[[Theory|&quot;Theory&quot;]]''' you are offered several articles of different levels of complexity dedicated to different aspects of working with Tkabber, from &quot;Quick start&quot; to attempts to explain quite sophisticated problems in simple words.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Очень рекомендуется потихоньку ознакомиться со всеми статьями этого раздела.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>We encourage you to read all of these articles little by little.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* В разделе '''[[Практика|&quot;Практика&quot;]]''' вы найдёте полезные советы по &quot;укрощению&quot; Ткаббера, а также описания различных патчей и плагинов, расширяющих его функциональность.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* The section '''[[Practice|&quot;Practice&quot;]]''' can be useful, as it's full of good advices about Tkabber &quot;taming&quot;. There you can find also descriptions of some patches and plugins which extend its functionality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В общем, это для тех, кто любит ручной труд.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It's for those who like hand labour.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* '''[[Ткаббер ЧаВо|&quot;Ткаббер ЧаВо&quot;]]''' &amp;mdash; '''Ча'''сто задаваемые '''Во'''просы по Ткабберу (или F.A.Q., если так будет привычнее).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* '''[[Tkabber FAQ|&quot;Tkabber FAQ&quot;]]''' doesn't need to be explained much.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Здесь потихоньку собираются решения самых распространённых проблем.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It will help you to find solutions for many common problems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* Страница '''[[Ссылки|&quot;Ссылки&quot;]]''' &amp;mdash; коллекция линков на внешние ресурсы, посвящённые ��ак самому Ткабберу, так и протоколу Jabber, языку, на котором Ткаббер написан &amp;mdash; [http://tcl.tk Tcl/Tk] и прочим вещам, имеющим ко всему этому отношение.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* A page '''[[Links|&quot;Links&quot;]]''' is a collection of links to resources dedicated to Tkabber, as well as to Jabber, or XMPP, to a language [http://tcl.tk Tcl/Tk] in which Tkabber is written, and other related stuff.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ещё несколько ссылок на крупные разделы вики:</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Some more links to big wiki sections:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* '''[[Терминология|&quot;Терминология&quot;]]''' &amp;mdash; небольшой глоссарий, цель которого &amp;mdash; облегчить новичкам понимание некоторых терминов из сфер, сопряжённых с IM, Jabber, Tcl/Tk, программированием.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* '''[[Terminology|&quot;Terminology&quot;]]''' &amp;mdash; a small glossary that could help to beginners in understanding some terms about IM, Jabber, Tcl/Tk, and programming.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* '''[[Плагины|&quot;Плагины&quot;]]''' &amp;mdash; раздел, посвящённый официальным и неофициальным (самописным) плагинам к Ткабберу.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* '''[[Plugins|&quot;Plugins&quot;]]''' is a section dedicated to official and unofficial (written by some users) plugins for Tkabber.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* '''[[Патчи|&quot;Патчи&quot;]]''' &amp;mdash; тут речь идёт о правках кода Ткаббера, позволяющих расширить его функциональность.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* '''[[Patches|&quot;Patches&quot;]]''' &amp;mdash; here we speak about rewriting of some Tkabber code that could expand its functionality.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>* '''[[Pages|&quot;Pages&quot;]]''' &amp;mdash; этакий реестр статей этой вики (неполный).</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>* '''[[Pages|&quot;Pages&quot;]]''' is a kind of incomplete registry of this wiki articles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Создана для того, чтобы можно было давать ссылки на статьи в конференциях и других местах, где не поддерживаются тэги HTML.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>It was created mainly for more comfortable copy-pasting of links to Russian pages to places where there is no support for HTML tags (for example, Jabber conferences).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Например, вместо того, чтобы давать ссылку вида &lt;nowiki&gt;http://ru.tkabber.jabe.ru/index.php/%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B&lt;/nowiki&gt; (далеко не самый жуткий вариант) можно добавить линк на неё на странице pages и дать уже эту ссылку: '''&lt;nowiki&gt;http://tkabber.jabe.ru/index.php/pages#plugins&lt;/nowiki&gt;'''.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>For instance, instead of giving a link like this: &lt;nowiki&gt;http://ru.tkabber.jabe.ru/index.php/%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B&lt;/nowiki&gt; (not the most ugly of them) it's better to add a link to it to &quot;Pages&quot; page and then copy-paste this link: '''&lt;nowiki&gt;http://tkabber.jabe.ru/index.php/pages#plugins&lt;/nowiki&gt;'''.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Лишний клик окупается более внятным и коротким написанием.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Although one has to do one more click, links look much better this way.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= О вики =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= About Wiki =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>По вопросам организации этой вики обращайтесь к [[Участник:bigote]] (русский, английский, испанский, каталанский), [[Участник:kostix]] (русский, английский) или [[Участник:lknight]] (русский, английский) &amp;mdash; нас можно найти также на вышеупомянутой конференции &lt;tt&gt;xmpp:tkabber@conference.jabber.ru&lt;/tt&gt;.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Should you have any questions about the wiki's organization please contact [[User:Bigote]] (Russian,English, Spanish, Catalan), [[User:Kostix]] (Russian,English). You also can find us in the conference &lt;tt&gt;xmpp:tkabber@conference.jabber.ru&lt;/tt&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Работа над вики доступна для всех &amp;mdash; регистрация свободна.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Any registered user can edit wiki pages. Registration is free.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Проект многоязычный, в настоящий момент существует четыре языковые версии: русский, английский, испанский и украинский.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This project is multi-language; at the present moment there are four versions: Russian, English, Spanish and Ukrainian.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если в�� хотите перевести статьи вики на какой-либо другой язык, пожалуйста, свяжитесь с нами.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you would like to translate wiki pages to some other language please contact us.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>При работе над переводом вам поможет наша '''[[Tkabber Wiki:Справка|Справка]].'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>While translating you could find useful our '''[[Help:Contents|Help page]].'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если вы настроены серьёзно в плане помочь этой вики и Ткабберу мозгами и руками, просьба ознакомиться с нашими '''[[планы на будущее|планами на будущее]]''', чтобы не изобретать велосипед.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you are vigorous about helping this wiki and Tkabber itself with your hands and brain please read first our '''[[Roadmap|plans for the future]]''', so that not to reinvent the wheel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если у вас есть свои идеи по части новшеств, которые вы хотите воплотить, просьба добавлять их на той странице, чтобы они были видны остальным участникам проекта.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you have new ideas about features you would like to implement, please leave them on that page so that other project members could learn them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если у вас нету опыта работы с вики, на странице '''[[Tkabber Wiki:Справка|Справки]]''' есть очень полезные ссылки на тему оформления тегов, ссылок и прочего.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you don't have experience in working with wiki please refer to the '''[[Help:Contents|Help page]]''' where you can find a lot of useful advices regarding tags, links and other things.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В последнее время нас спрашивают, who is who в конференции и на вики.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>From time to time we are asked &quot;who is who&quot; in the conference and here, on the wiki.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Старожил конференции и один из основателей вики [[Участник:bigote|Bigote]] готов рассказать вам [[История вики|историю их создания]], если вы не пожалеете для старика пинты пива &amp;mdash; промочить глотку ;-D</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Old-timer and one of wiki creators  [[User:Bigote|Bigote]] is &quot;semper paratus&quot; to tell you [[Wiki's History|a history of their creation]] (if you don't mind to buy him a pint of beer to wet hist whistle ;-D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[en:Tkabber FAQ]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[ru:Ткаббер ЧаВо]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Предпоследний релиз Ткаббера &amp;mdash; [http://tkabber.jabber.ru/tkabber-0.10.0 0.10.0] автоматически инвалидировал некоторые освещённые здесь проблемы; поскольку &quot;предыдущий стабильный&quot; релиз 0.9.9 продолжает иметь широкое хождение, вопросы, посвящённые ему, перенесены в [[0.9.x/ЧаВо|отдельный ЧаВо]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The last but one release of Tkabber &amp;mdash; [http://tkabber.jabber.ru/tkabber-0.10.0 0.10.0] automatically resolved some of the problems that were explained here; however, some people still use the previous release 0.9.9 so the questions related to this version were moved to [[0.9.x/FAQ|a separated FAQ]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если проблема, которая у вас возникла, здесь не освещена, заходите на &lt;tt&gt;xmpp:tkabber@conference.jabber.ru?join&lt;/tt&gt; &amp;mdash; подумаем вместе, и если решим &amp;mdash; ответ появится либо здесь, либо в одной из статей этой вики.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If an issue you have encountered is not explained here feel free to visit &lt;tt&gt;xmpp:tkabber@conference.jabber.ru?join&lt;/tt&gt; to discuss it, and if we manage to find a solution it will be published either here or in one of the articles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Недавние глюки с некоторыми сильно разросшимися страницами (и в первую очередь с ЧаВо) подтолкнули нас к давно обдуманному шагу: разделить ЧаВо на несколько разных страниц.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Since this page (and some other pages) were growing too much, one day it gave big problems to the server, so we decided to divide this FAQ into several pages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= Внешний вид и звук =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= Appearance And Sound =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Почему Ткаббер такой страшный?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Why Is Tkabber So Ugly?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Почему Ткаббер такой страшный?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Why Is Tkabber So Ugly?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Шрифты ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Fonts ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Шрифты|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Fonts|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Смайлики: 1) вызов из меню; 2) не подключаются; 3) не хочу их; 4) анимированные ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Smilies: 1) Calling From A Menu; 2) Can't Enable Them; 3) Don't Want Any; 4) Animated ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Смайлики: 1) вызов из меню; 2) не подключаются; 3) не хочу их; 4) анимированные|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Smilies: 1) Calling From A Menu; 2) Can't Enable Them; 3) Don't Want Any; 4) Animated|Go to the answer]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Не видны иконки/фото/и т.д.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== I Can't See Icons/Photos/etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>в JPEG/PNG ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In JPEG/PNG Format ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Не видны иконки/фото/и т.д.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#I Can't See Icons/Photos/etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>в JPEG/PNG|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>In JPEG/PNG Format|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Цветовые схемы ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Color Schemes ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Цветовые схемы|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Color Schemes|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Цвета сообщений &quot;асечников&quot; ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Colors Of ICQ User Messages ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Цвета сообщений &quot;асечников&quot;|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Colors Of ICQ User Messages|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Поддерживает ли Ткаббер аватары?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Does Tkabber Support Avatars?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Поддерживает ли Ткаббер аватары?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Does Tkabber Support Avatars?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Регулировка громкости звука ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Sound Volume Adjusting ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Регулировка громкости звука|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Appearance And Sound#Sound Volume Adjusting|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== В старпаке/старките нет звука/поддержки JPEG,PNG ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Решение [[Ткаббер ЧаВо/Глюки#В старпаке/старките нет звука/поддержки JPEG,PNG/сжатия|описано в другом ЧаВо]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>The solution [[Tkabber FAQ/Glitches#A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG/Compression|is given in another FAQ]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= Глюки, возникающие в процессе работы =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= Problems Arising During Work =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В этом разделе вы найдёте решения проблем, связанных с нестандартным поведением Ткаббера в стандартных ситуациях.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Here you can find solutions of some problems related to non-standard behavior of Tkabber in standard situations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Общие вопросы ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Common Questions ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер и Ufanet ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber And Ufanet ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер и Ufanet|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber And Ufanet|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Долгая загрузка Ткаббера ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Long Loading Of Tkabber ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Долгая загрузка Ткаббера|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Long Loading Of Tkabber|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер &quot;виснет&quot; при попытке логина на сервер ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber &quot;Hangs Up&quot; While Trying To Login To A Server ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер &quot;виснет&quot; при попытке логина на сервер|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber &quot;Hangs Up&quot; While Trying To Login To A Server|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Пересылка файлов ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Sending Files ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Пересылка файлов|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Sending Files|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер постоянно держит меня в состоянии &quot;отошёл&quot; (&quot;away&quot;) ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber Always Keeps Me &quot;Away&quot; ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер постоянно держит меня в состоянии &quot;отошёл&quot; (&quot;away&quot;)|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Always Keeps Me &quot;Away&quot;|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Не могу приконнектиться к серверу через прокси ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I Can't Connect To A Server Via Proxy ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Не могу приконнектиться к серверу через прокси|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Can't Connect To A Server Via Proxy|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Keep alive в Ткаббере &amp;mdash; возможно ли?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Is &quot;Keep Alive&quot; Possible In Tkabber?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Keep alive в Ткаббере &amp;mdash; возможно ли?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Is &quot;Keep Alive&quot; Possible In Tkabber?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Что с грифельной доской?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== What Happens To Whiteboard?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Что с грифельной доской?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#What Happens To Whiteboard?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер в упор не видит SSL-сертификат для коннекта к серверу ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber Seems Not To See SSL Certificate To Connect To Server ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер в упор не видит SSL-сертификат для коннекта к серверу|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Seems Not To See SSL Certificate To Connect To Server|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Не могу отредактировать закладку конференции в ростере ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I Can't Edit Conference Bookmarks In Roster ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Не могу отредактировать закладку конференции в ростере|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Can't Edit Conference Bookmarks In Roster|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер и iChat ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber And iChat ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер и iChat|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber And iChat|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Вопросы, связанные с Линукс ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Questions Related To Linux ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Шифрование в Ткаббере: проблемы с '''gpgme/tclgpgme''' ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Encryption In Tkabber: Problems With gpgme/tclgpgme ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Шифрование в Ткаббере: проблемы с gpgme/tclgpgme|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Encryption In Tkabber: Problems With gpgme/tclgpgme|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>==== Не могу скомпилировать tclgpgme ====</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>==== I Can't Compile tclgpgme ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Не могу скомпилировать tclgpgme|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Can't Compile tclgpgme|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>==== Ткаббер валится при вводе gpg-пароля ====</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>==== Tkabber Crashes When I Enter A gpg Passphrase ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер валится при вводе gpg-пароля|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Crashes When I Enter A gpg Passphrase|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== В Ubuntu не вводятся русские буквы в Ткаббере, chto delat?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I Can't Write In Cyrillic In Tkabber Under Ubuntu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#В Ubuntu не вводятся русские буквы в Ткаббере, chto delat?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Can't Write In Cyrillic In Tkabber Under Ubuntu|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ткаббер под X Window падает при попытке показать &quot;странные&quot; символы ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber Crashes When Trying To Display &quot;Strange&quot; Characters Under X Window ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ткаббер под X Window падает при попытке показать &quot;странные&quot; символы|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Crashes When Trying To Display &quot;Strange&quot; Characters Under X Window|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Не работает вставка по Control-v под X Window ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Inserting By Control-v Under X Window Doesn't Work ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Не работает вставка по Control-v под X Window|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Inserting By Control-v Under X Window Doesn't Work|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== В Gentoo не работает сворачивание в трей ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber Doesn't Minimize To Tray Under Gentoo ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#В Gentoo не работает сворачивание в трей|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Tkabber Doesn't Minimize To Tray Under Gentoo|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Fedora 8 и Tcl/Tk 8.5 ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Fedora 8 And Tcl/Tk 8.5 ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Fedora 8 и Tcl/Tk 8.5|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Fedora 8 And Tcl/Tk 8.5|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Обновил тикль до 8.5, но Ткаббер по-прежнему запускается с 8.4 ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I Updated Tcl/Tk To 8.5 But Tkabber Still Starts With 8.4 ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Обновил тикль до 8.5, но Ткаббер по-прежнему запускается с 8.4|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Updated Tcl/Tk To 8.5 But Tkabber Still Starts With 8.4|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>===  Проигрывание звука в Linux ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>===  Playing Sound Under Linux ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Внешний вид и звук#Проигрывание звука в Linux| Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Playing Sound Under Linux|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Вопросы, связанные с Виндовс ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Questions Related To Windows ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== В старпаке/старките нет звука/поддержки JPEG,PNG/сжатия ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG/Compression ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#В старпаке/старките нет звука/поддержки JPEG,PNG/сжатия|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#A Starpack/Starkit Doesn't Have Sound/Support Of JPEG, PNG/Compression|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Не работает браузер под виндами ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Opening Links In Browser Under Windows Doesn't Work ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Не работает браузер под виндами|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Opening Links In Browser Under Windows Doesn't Work|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== При клике на URL'е в Ткаббере запускается две Оперы и открывают страницу два раза ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== When Clicking On A Link In Tkabber Two Operas Run And Open The Page Two Times ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#При клике на URL'е в Ткаббере запускается две Оперы и открывают страницу два раза|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#When Clicking On A Link In Tkabber Two Operas Run And Open The Page Two Times|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Странное поведение прокрутки содержимого окна чата колесом мыши ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Strange Behaviour Of Chat Window When Using Mouse Wheel ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Странное поведение прокрутки содержимого окна чата колесом мыши|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Strange Behaviour Of Chat Window When Using Mouse Wheel|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ошибка: wrong # args: should be &quot;zlib option data ?...?&quot;, что делать?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I Got This Error: wrong # args: should be &quot;zlib option data ?...?&quot;. What Do I Do?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Ошибка: wrong # args: should be &quot;zlib option data ?...?&quot;, что делать?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#I Got This Error: wrong # args: should be &quot;zlib option data ?...?&quot;. What Do I Do?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Windows, дистрибутив от ActiveState &amp;mdash; &quot;падения&quot; при нажатии Alt-любая кнопка в главном окне ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Windows, ActiveState Tcl/Tk: Tkabber Crashes After Hitting &quot;Alt-Any Key&quot; In Main Window ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Windows, дистрибутив от ActiveState &amp;mdash; &quot;падения&quot; при нажатии Alt-любая кнопка в главном окне|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Windows, ActiveState Tcl/Tk: Tkabber Crashes After Hitting &quot;Alt-Any Key&quot; In Main Window|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Windows, дистрибутив от ActiveState &amp;mdash; &quot;падения&quot; при открытии в фоне окна со смайликом ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Windows, ActiveState Tcl/Tk: Crashes When Opening In Background A Window With A Smilie ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Windows, дистрибутив от ActiveState &amp;mdash; &quot;падения&quot; при открытии в фоне окна со смайликом|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Windows, ActiveState Tcl/Tk: Crashes When Opening In Background A Window With A Smilie|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Фатальная ошибка в wish при запуске полноэкранных приложений под Windows ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Fatal Error In &quot;wish&quot; When Running Full Screen Programs Under Windows ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Глюки#Фатальная ошибка в wish при запуске полноэкранных приложений под Windows|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Glitches#Fatal Error In &quot;wish&quot; When Running Full Screen Programs Under Windows|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= А как мне...?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= How Do I...?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>А тут будут освещаться некоторые нетривиальные хитрульки.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Here you can find some non-trivial tricks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Настройка Ткаббера (Не найду файл config.tcl) ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Configuring Tkabber (Can't Find config.tcl) ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Настройка Ткаббера (Не найду файл config.tcl)|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Configuring Tkabber (Can't Find config.tcl)|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как настроить &quot;автологин&quot;?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Set Up &quot;Autologin&quot;?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как настроить &quot;автологин&quot;?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Set Up &quot;Autologin&quot;?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Работать с RSS ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Work With RSS? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Работать с RSS|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Work With RSS?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Отправка сообщений по Ctrl-Enter ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Sending Messages By Ctrl-Enter ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Отправка сообщений по Ctrl-Enter|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Sending Messages By Ctrl-Enter|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Отправка сообщений по NumPad Enter ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Sending Messages By NumPad Enter ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Отправка сообщений по NumPad Enter|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Sending Messages By NumPad Enter|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Одновременная работа с несколькими аккаунтами ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Simultaneous Work With Several Accounts ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Одновременная работа с несколькими аккаунтами|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Simultaneous Work With Several Accounts|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как насчёт автозахода на конференции?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How About Autojoining Conferences?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как насчёт автозахода на конференции?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How About Autojoining Conferences?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Сжатие трафика в Ткаббере ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Traffic Compression In Tkabber ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Сжатие трафика в Ткаббере|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Traffic Compression In Tkabber|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Выделение текста жирным, курсивом и подчёркиванием ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Text Formatting (Bold, Italics, Underscore) ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Выделение текста жирным, курсивом и подчёркиванием|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Text Formatting (Bold, Italics, Underscore)|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Ввод &quot;хитрых&quot; юникодных символов ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Entering Of Some Unicode Characters ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Ввод &quot;хитрых&quot; юникодных символов|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Entering Of Some Unicode Characters|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Игнор &amp;mdash; великая вещь!</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Ignoring Rules!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Игнор — великая вещь!|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Ignoring Rules!|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Подтверждения ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Confirmations ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Подтверждения|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Confirmations|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Удалённое управление ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Remote Control ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Удалённое управление|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Remote Control|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Команды Ткаббера ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Tkabber Commands ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Команды Ткаббера|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Tkabber Commands|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Скрытие версий клиента и ОС ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Client Version And OS Hiding ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Скрытие версий клиента и ОС|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Client Version And OS Hiding|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как подключить плагин?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Connect A Plugin?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как подключить плагин?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Connect A Plugin?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как уменьшить трафик?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Reduce Traffic?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как уменьшить трафик?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Reduce Traffic?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Самостоятельная сборка Старпака ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How Can I Assemble A Starpack Myself? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Самостоятельная сборка Старпака|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How Can I Assemble A Starpack Myself?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== &quot;Быстрый&quot; Copy/Paste помимо буфера Windows ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== &quot;Rapid&quot; Copy/Paste Without Using Windows Clipboard ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#&quot;Быстрый&quot; Copy/Paste помимо буфера Windows|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#&quot;Rapid&quot; Copy/Paste Without Using Windows Clipboard|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Проверка орфографии ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Spellchecking ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Проверка орфографии|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Spellchecking|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как перенести ростер с сервера на сервер?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Transfer My Roster From Server To Server?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Импортировать контакты ICQ?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>How To Import ICQ Contacts?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как перенести ростер с сервера на сервер?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Transfer My Roster From Server To Server?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Импортировать контакты ICQ?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>How To Import ICQ Contacts?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как почитать протокол общения &quot;в привате&quot; с участником групчата, которого больше нет в комнате?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Read History Of A Private Chat With A User That Isn't In The Room Anymore?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как почитать протокол общения &quot;в привате&quot; с участником групчата, которого больше нет в комнате?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Read History Of A Private Chat With A User That Isn't In The Room Anymore?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Указать причину кика/бана ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Provide Reason For A Kick/Ban? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Указать причину кика/бана|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Provide Reason For A Kick/Ban?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Блокировать спам с MRIM-гейта ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Blocking Spam From MRIM Transport ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Блокировать спам с MRIM-гейта|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Blocking Spam From MRIM Transport|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Конфигурирование конференции ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Conference Configuring ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Конфигурирование конференции|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Conference Configuring|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Отключить к (нецензурные слова пропущены) splash-окно ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Turn Off Splash Window? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Отключить к (нецензурные слова пропущены) splash-окно|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Turn Off Splash Window?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Подключить Ткаббер через SOCKS-сервер ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Connecting Via SOCKS Server ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Подключить Ткаббер через SOCKS-сервер|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Connecting Via SOCKS Server|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Подключить Ткаббер через Tor, для анонимного использования ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Connect Tkabber Via Tor, For Anonymous Usage? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Подключить Ткаббер через Tor, для анонимного использования|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Connect Tkabber Via Tor, For Anonymous Usage?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Подключиться к Google Talk ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Connecting To Google Talk ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Подключиться к Google Talk|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Connecting To Google Talk|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Победить предупреждение о проблеме с сертификатом сервера?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Disabling Warnings About Server Certificate Problem</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Победить предупреждение о проблеме с сертификатом сервера|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#Disabling Warnings About Server Certificate Problem|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Работать с версией из SVN ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Work With SVN Version Of Tkabber? ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Работать с версией из SVN|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Work With SVN Version Of Tkabber?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Задолбало выпадающее меню в контекстном меню MUC-юзера ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== I'm Sick And Tired Of Drop-Down Menu In MUC-User Context Menu ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Задолбало выпадающее меню в контекстном меню MUC-юзера|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#I'm Sick And Tired Of Drop-Down Menu In MUC-User Context Menu|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как мне собрать новый tclgpg с googlecode?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Build New tclgpg From Googlecode?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как мне собрать новый tclgpg с googlecode?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Build New tclgpg From Googlecode?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Как настроить работу с плагином OSD?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Work With OSD Plugin?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Как настроить работу с плагином OSD?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Work With OSD Plugin?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Включить интерфейс на другом языке?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Enable Interface In Another Language?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Включить другой язык интерфейса?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Enable Interface In Another Language?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Изменить и зафиксировать ширину ростера?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== How To Change And Save Roster Width?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Как мне...?#Изменить и зафиксировать ширину ростера?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/How Do I...?#How To Change And Save Roster Width?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>= Всякая всячина =</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>= Miscellaneous =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Что такое...?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== What Is...?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ростер ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Roster ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Ростер|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Roster|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Ресурс ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Resource ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Ресурс|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Resource|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Приоритет ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Priority ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Приоритет|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Priority|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Консоль Ткаббера ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Tkabber Console ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Консоль Ткаббера|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Tkabber Console|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Репозиторий teo ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Teo's Repository ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Репозиторий teo|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Teo's Repository|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Разное ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Misc ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== ...а мне ИГРАТЬ охота!!!</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== I'd Love Playing Games!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#...а мне ИГРАТЬ охота!!!|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#I'd Love Playing Games!|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Старые версии Ткаббера и плагинов ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Old Versions Of Tkabber And Its Plugins ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Старые версии Ткаббера и плагинов|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Old Versions Of Tkabber And Its Plugins|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Работает ли Ткаббер на КПК?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Does Tkabber Work On PDA?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Работает ли Ткаббер на КПК?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Does Tkabber Work On PDA?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Почему Ткаббер написан именно на Tcl/Tk?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Why Tkabber Is Written In Tcl/Tk?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Почему Ткаббер написан именно на Tcl/Tk?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Why Tkabber Is Written In Tcl/Tk?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== Кто убил Лору Палмер?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Who Killed Lora Palmer?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Кто убил Лору Палмер?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Who Killed Lora Palmer?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>©|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>©|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== У вас в конференции топик с ошибкой написан ===</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Your Conference Topic Contains A Grammar Error ===</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#У вас в конференции топик с ошибкой написан|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Your Conference Topic Contains A Grammar Error|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>=== А добавят ли когда-нибудь в Ткаббер...?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>=== Will This Cool Feature Be Added To Tkabber Some Day?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#А добавят ли когда-нибудь в Ткаббер...?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Will This Cool Feature Be Added To Tkabber Some Day?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>== Вопросы, связанные с протоколом XMPP ==</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>== Questions Related To XMPP ==</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>==== Кто есть кто в конференции?</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>==== Who Is Who In Multi-User Conference?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Кто есть кто в конференции?|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Who Is Who In Multi-User Conference?|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>==== Не работают инвайты ====</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>==== Invites Seem To Not Work ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо/Разное#Не работают инвайты|Перейти к ответу]].</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ/Misc#Invites Seem To Not Work|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
