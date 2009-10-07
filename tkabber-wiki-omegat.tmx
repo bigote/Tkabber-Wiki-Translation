@@ -1073,7 +1073,7 @@
         <seg>=== В Gentoo не работает сворачивание в трей ===</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>=== Tkabber Doesn't Minimize To Tray Under Gentoo ===</seg>
+        <seg>=== Minimizing To The Systray Doesn't Work In Gentoo ===</seg>
       </tuv>
     </tu>
     <tu>
@@ -1081,7 +1081,7 @@
         <seg>[[Ткаббер ЧаВо/Глюки#В Gentoo не работает сворачивание в трей|Перейти к ответу]].</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>[[Tkabber FAQ/Glitches#Tkabber Doesn't Minimize To Tray Under Gentoo|Go to the answer]].</seg>
+        <seg>[[Tkabber FAQ/Glitches#Minimizing To The Systray Doesn't Work In Gentoo|Go to the answer]].</seg>
       </tuv>
     </tu>
     <tu>

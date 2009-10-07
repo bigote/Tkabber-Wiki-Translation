@@ -1073,7 +1073,7 @@
         <seg>=== В Gentoo не работает сворачивание в трей ===</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>=== Tkabber Doesn't Minimize To Tray Under Gentoo ===</seg>
+        <seg>=== Minimizing To The Systray Doesn't Work In Gentoo ===</seg>
       </tuv>
     </tu>
     <tu>
@@ -1081,7 +1081,7 @@
         <seg>[[Ткаббер ЧаВо/Глюки#В Gentoo не работает сворачивание в трей|Перейти к ответу]].</seg>
       </tuv>
       <tuv lang="EN-US">
-        <seg>[[Tkabber FAQ/Glitches#Tkabber Doesn't Minimize To Tray Under Gentoo|Go to the answer]].</seg>
+        <seg>[[Tkabber FAQ/Glitches#Minimizing To The Systray Doesn't Work In Gentoo|Go to the answer]].</seg>
       </tuv>
     </tu>
     <tu>
@@ -2154,6 +2154,94 @@
       </tuv>
       <tuv lang="EN-US">
         <seg>[[Tkabber FAQ/Misc#Invites Seem To Not Work|Go to the answer]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[en:Tkabber FAQ/Glitches]]</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[ru:Ткаббер ЧаВо/Глюки]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[[Ткаббер ЧаВо]] разделился на несколько статей.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>[[Tkabber FAQ]] was divided into several articles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>В этой статье разбираются глюки и баги, терзающие Ткаббер и его пользователей.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>This article is dedicated to bugs that trouble Tkabber and its users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Для удобства даны ссылки на другие тематические страницы ЧаВо.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>For more comfortable navigation there are links to other thematic FAQ pages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>'''Вопрос: Ткаббер жутко долго грузится.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>'''Question: It takes Tkabber several minutes to start up.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Поначалу я даже думал, что он виснет на старте, но как-то раз набрался тепрения и дождался.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>First I even thought that it hangs up when starting but one day I possessed my soul in patience and got Tkabber loaded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Потом работает нормально.'''</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Once it's loaded it works fine.'''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Ответ: Посмотрите внимательно, что при этом показывает прогресс-бар сплэш-скрина.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Answer: Look at the progress-bar of Tkabber splash-screen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если на нём застыли слова &quot;пользовательский интерфейс&quot;, то возможно, дело вот в чём.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If the words &quot;user interface&quot; are frozen there, then maybe we know what happens.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Если у вас включено кэширование новостей, а самих новостных фидов в ростере &amp;mdash; вагон и маленькая тележка, то через некоторое время общее число сообщений может с лёгкостью перевалить за несколько сотен.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>If you have headlines caching enabled and have a lot of RSS feeds in the roster, especially some daily renewed ones, the total quantity of messages in the headlines tab can easily grow up to several hundreds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Естественно, чтобы все их подгрузить из файла, требуется время.</seg>
+      </tuv>
+      <tuv lang="EN-US">
+        <seg>Of course, to load all of them from a file takes some time.</seg>
       </tuv>
     </tu>
   </body>

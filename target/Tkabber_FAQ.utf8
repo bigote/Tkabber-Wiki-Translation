@@ -100,8 +100,8 @@ Here you can find solutions of some problems related to non-standard behavior of
 === Inserting By Control-v Under X Window Doesn't Work ===
 [[Tkabber FAQ/Glitches#Inserting By Control-v Under X Window Doesn't Work|Go to the answer]].
 
-=== Tkabber Doesn't Minimize To Tray Under Gentoo ===
-[[Tkabber FAQ/Glitches#Tkabber Doesn't Minimize To Tray Under Gentoo|Go to the answer]].
+=== Minimizing To The Systray Doesn't Work In Gentoo ===
+[[Tkabber FAQ/Glitches#Minimizing To The Systray Doesn't Work In Gentoo|Go to the answer]].
 
 === Fedora 8 And Tcl/Tk 8.5 ===
 [[Tkabber FAQ/Glitches#Fedora 8 And Tcl/Tk 8.5|Go to the answer]].
